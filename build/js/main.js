@@ -119,7 +119,6 @@ $(function(){
 	function adaptiveHead(){
 	 if($(window).width() < 992){
 	 	$('.mob-header__menu').append( $('.header__menu .menu') );
-	 	// $('.mob-header__contact').append( $('.header__contact') );
 
 	 	if($('.menu__catalog').length){
 		 	$('.menu__catalog').slick({
@@ -157,7 +156,7 @@ $(function(){
 	 	
 	 }else{
 	 	$('.header__menu .wrap').append( $('.mob-header__menu .menu') );
-	 	// $('.header__contact').insertAfter('.logo');
+	 	
 	 }
 
 	}

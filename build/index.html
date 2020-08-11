@@ -6,10 +6,10 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   <!--  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+   <!--  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css?v=6f06100815850b3931d6dd1f68c7e44e" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
  -->
-    <link rel='stylesheet' type='text/css' media='screen' href='./css/slick.min.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./css/main.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/slick.min.css?v=6f06100815850b3931d6dd1f68c7e44e'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/main.min.css?v=6f06100815850b3931d6dd1f68c7e44e'>
 </head>
 
 <body>
@@ -22,7 +22,15 @@
                     <a href="">ВХОД</a>
                     <a href="">РЕГИСТРАЦИЯ</a>
                 </div>
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
+        </div>
+        <div class="mob-header">
+            <div class="mob-header__menu"></div>
         </div>
 
         <div class="header__center">
@@ -37,7 +45,7 @@
                 
                     <div class="header__contact">
                         <a href="tel:+78129295200" class="header__contact__item header__contact-first"><img src="./img/phone.png">+7 (812) 929 52 00</a>
-                        <div href="" class="header__contact__item"><img src="./img/time.png">Пн-Пт 10-20, Сб-Вс 11-19</div>
+                        <div class="header__contact__item"><img src="./img/time.png">Пн-Пт 10-20, Сб-Вс 11-19</div>
                         <a href="" class="header__contact__item header__contact-last"><img src="./img/map.png">СПБ, ул. Якорная 14 кв.1 </a>
                     </div>
                
@@ -54,13 +62,14 @@
                 
                     <div class="cart">
                         <div class="cart__left">
-                            <img src="./img/cart.png">
+                            <a href=""><img src="./img/cart.png"></a>
                         </div>
                         <div class="cart__right">
                             <div class="car__sum">Корзина <span>0 ₽</span></div>
                             <a href="">Выберите товары</a>
                         </div>
                     </div>
+                   
                    
                 </div>
             </div>
@@ -71,50 +80,54 @@
                 <ul class="menu">
                     <li class="menu__item sub-menu"><a href="">Каталог</a>
                         <div class="sub-menu__wrap">
+                            <div class="sub-menu__back">
+                               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="29px"> <image x="0px" y="0px" width="18px" height="29px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAdBAMAAABVtiGxAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAHlBMVEVBcYNBcYRAcYNAcIP///9BcYNAcINBcYRAcYP////iOsJTAAAABXRSTlMAAAAAAMJrBrEAAAABYktHRASPaNlRAAAAB3RJTUUH5AgHCS8LZrlaJgAAAOFJREFUGNMdj8FOwzAQRDes6DmJpZ5DLHG2MyLlA/wBSBCLY0vidX4ggXslw2ez7W2keTM7S1UP1GjfAsFWLcy4qYKzQC4L9d6iPq5bJtTGdNv6u5DjwY9/qQRSEDHmWRMVxlQSAjkYEbn4QDwck4jlQMbLlGaoi1EkwjrlfrJcB6h7UorhnwKJ7FcD1wQ6rLLrLm3xaYtzx8oNp0ky31tY8vp+UzS8inwaVfxQp326qGpcd5BSNKFw9y1yvv3G1Yveuf/mOIos6jK3jzqWbM+2tTl9UNdaGDxH3ezqqmH+Cv/0rD2w8q6L5gAAAABJRU5ErkJggg=="></image> </svg>
+                                <span>Назад</span>
+                            </div>
                             <div class="sub-menu__level1">
-                                <span>Уплотнители</span>
+                                <a href="">Уплотнители</a>
                                 <div class="sub-menu__wrap__level2">
-                                    <div class="sub-menu__level2">Для монтажа окон</div>
-                                    <div class="sub-menu__level2">Силиконовые универсальные</div>
-                                    <div class="sub-menu__level2">Силиконовые санитарные</div>
-                                    <div class="sub-menu__level2">Силиконовые нейтральные</div>
+                                    <a href="" class="sub-menu__level2">Для монтажа окон</a>
+                                    <a href="" class="sub-menu__level2">Силиконовые универсальные</a>
+                                    <a href="" class="sub-menu__level2">Силиконовые санитарные</a>
+                                    <a href="" class="sub-menu__level2">Силиконовые нейтральные</a>
                                 </div>
                             </div>
-                             <div class="sub-menu__level1">
-                                <span>Герметики</span>
+                            <div class="sub-menu__level1">
+                                <a href="">Герметики</a>
                                 <div class="sub-menu__wrap__level2">
-                                    <div class="sub-menu__level2">Для монтажа окон</div>
-                                    <div class="sub-menu__level2">Силиконовые универсальные</div>
-                                    <div class="sub-menu__level2">Силиконовые санитарные</div>
-                                    <div class="sub-menu__level2">Силиконовые нейтральные</div>
+                                    <a href="" class="sub-menu__level2">Для монтажа окон</a>
+                                    <a href="" class="sub-menu__level2">Силиконовые универсальные</a>
+                                    <a href="" class="sub-menu__level2">Силиконовые санитарные</a>
+                                    <a href="" class="sub-menu__level2">Силиконовые нейтральные</a>
                                 </div>
                             </div>
-                             <div class="sub-menu__level1">
-                                <span>Инструмент</span>
+                            <div class="sub-menu__level1">
+                                <a href="">Инструмент</a>
                             </div>
                              <div class="sub-menu__level1">
-                                <span>Фурнитура</span>
+                                <a href="">Фурнитура</a>
                             </div>
                              <div class="sub-menu__level1">
-                                <span>Химия</span>
+                                <a href="">Химия</a>
                             </div>
                              <div class="sub-menu__level1">
-                                <span>Монтажная пена</span>
+                                <a href="">Монтажная пена</a>
                             </div>
                              <div class="sub-menu__level1">
-                                <span>Москитные сетки</span>
+                                <a href="">Москитные сетки</a>
                             </div>
                              <div class="sub-menu__level1">
-                                <span>Откосы </span>
+                                <a href="">Откосы </a>
                             </div>
                              <div class="sub-menu__level1">
-                                <span>Подоконники</span>
+                                <a href="">Подоконники</a>
                             </div>
                              <div class="sub-menu__level1">
-                                <span>Аксессуары</span>
+                                <a href="">Аксессуары</a>
                             </div>
                              <div class="sub-menu__level1">
-                                <span>Монтажнные материалы</span>
+                                <a href="">Монтажнные материалы</a>
                             </div>
                         </div>
                     </li>
@@ -135,42 +148,52 @@
                 <a href="" class="menu__catalog__item">
                     <img src="./img/1.png">
                     <img src="./img/11.png">
+                    <span>Уплотнители</span>
                 </a>
                 <a href="" class="menu__catalog__item">
                     <img src="./img/2.png">
                     <img src="./img/22.png">
+                    <span>Герметики</span>
                 </a>    
                 <a href="" class="menu__catalog__item">
                     <img src="./img/3.png">
                     <img src="./img/33.png">
+                    <span>Инструмент</span>
                 </a>    
                 <a href="" class="menu__catalog__item">
                     <img src="./img/4.png">
                     <img src="./img/44.png">
+                    <span>Фурнитура</span>
                 </a>    
                 <a href="" class="menu__catalog__item">
                     <img src="./img/5.png">
                     <img src="./img/55.png">
+                    <span>Химия</span>
                 </a>    
                 <a href="" class="menu__catalog__item">
                     <img src="./img/6.png">
                     <img src="./img/66.png">
+                    <span>Монтажная пена</span>
                 </a>    
                 <a href="" class="menu__catalog__item">
                     <img src="./img/7.png">
                     <img src="./img/77.png">
+                    <span>Москитные сетки</span>
                 </a>    
                 <a href="" class="menu__catalog__item">
                     <img src="./img/8.png">
                     <img src="./img/88.png">
+                    <span>Откосы</span>
                 </a>    
                 <a href="" class="menu__catalog__item">
                     <img src="./img/9.png">
                     <img src="./img/99.png">
+                    <span>Подоконники</span>
                 </a>    
                 <a href="" class="menu__catalog__item">
                     <img src="./img/10.png">
                     <img src="./img/101.png">
+                    <span>Аксессуары</span>
                 </a>    
                     
             </div>
@@ -234,17 +257,502 @@
             </div>
         </div>
        
-        
+        <div class="main-content">
+            <div class="wrap">
+                <h1>Строительные материалы для окон:</h1>
+                <section class="main-section">
+                    <h2>Акции:</h2>
+                    <div class="main-content__slider1">
+                        
+                        <div class="slider1__wrap">
+                            <div>
+                                <div class="tovar-item">
+                                    <div class="tovar-item__name">
+                                       <h3><a href="">Герметик для окон стеклопакетов</a></h3>
+                                   </div>
+                                   
+                                   <a href="" class="tovar-item__foto" style="background-image: url('./img/tovar/1.png')">
+                                       <span class="red">-15%</span>
+                                   </a>
+                                   <div class="tovar-item__price">
+                                       <div class="old-price">2765 ₽</div>
+                                       <div class="price">9643 ₽</div>
+                                   </div>
+                                   <div class="tovar-item__info green">*В наличии</div>
+                                   <div class="tovar-item__action">
+                                       <div class="tovar__count">
+                                           <input type="text" value="1">
+                                           <div class="count-btn">
+                                               <button class="" type="button">
+                                                    <object type="image/svg+xml" data="./img/up.svg"></object>
+                                               </button>
+                                               <button type="button">
+                                                    <object type="image/svg+xml" data="./img/down.svg"></object>
+                                               </button>
+                                           </div>
+                                       </div>
+                                       <a href=""><object type="image/svg+xml" data="./img/carta.svg"></object>В корзину</a>
+                                   </div>
+                               </div>
+                            </div>
+                           <div>
+                               <div class="tovar-item">
+                                   <div class="tovar-item__name">
+                                       <h3><a href="">Герметик для окон стеклопакетов и не только</a></h3>
+                                   </div>
+                                   
+                                   <a href="" class="tovar-item__foto" style="background-image: url('./img/tovar/2.png')">
+                                       <span class="green">Новинка</span>
+                                   </a>
+                                   <div class="tovar-item__price">
+                                       <div class="price">9643 ₽</div>
+                                   </div>
+                                   <div class="tovar-item__info red">*Нет в наличии</div>
+                                   <div class="tovar-item__action">
+                                       <div class="tovar__count">
+                                           <input type="text" value="1">
+                                           <div class="count-btn">
+                                               <button class="" type="button">
+                                                    <object type="image/svg+xml" data="./img/up.svg"></object>
+                                               </button>
+                                               <button type="button">
+                                                    <object type="image/svg+xml" data="./img/down.svg"></object>
+                                               </button>
+                                           </div>
+                                       </div>
+                                       <a href=""><object type="image/svg+xml" data="./img/carta.svg"></object>В корзину</a>
+                                   </div>
+                               </div>
+                           </div>
+                           <div>
+                               <div class="tovar-item">
+                                   <div class="tovar-item__name">
+                                       <h3><a href="">Герметик для окон стеклопакетов и не только</a></h3>
+                                   </div>
+                                   
+                                   <a href="" class="tovar-item__foto" style="background-image: url('./img/tovar/2.png')">
+                                       <span class="green">Новинка</span>
+                                   </a>
+                                   <div class="tovar-item__price">
+                                       <div class="price">9643 ₽</div>
+                                   </div>
+                                   <div class="tovar-item__info red">*Нет в наличии</div>
+                                   <div class="tovar-item__action">
+                                       <div class="tovar__count">
+                                           <input type="text" value="1">
+                                           <div class="count-btn">
+                                               <button class="" type="button">
+                                                    <object type="image/svg+xml" data="./img/up.svg"></object>
+                                               </button>
+                                               <button type="button">
+                                                    <object type="image/svg+xml" data="./img/down.svg"></object>
+                                               </button>
+                                           </div>
+                                       </div>
+                                       <a href=""><object type="image/svg+xml" data="./img/carta.svg"></object>В корзину</a>
+                                   </div>
+                               </div>
+                           </div>
+                           <div>
+                               <div class="tovar-item">
+                                   <div class="tovar-item__name">
+                                       <h3><a href="">Герметик для окон стеклопакетов</a></h3>
+                                   </div>
+                                   
+                                   <a href="" class="tovar-item__foto" style="background-image: url('./img/tovar/1.png')">
+                                       <span class="red">-15%</span>
+                                   </a>
+                                   <div class="tovar-item__price">
+                                       <div class="old-price">2765 ₽</div>
+                                       <div class="price">9643 ₽</div>
+                                   </div>
+                                   <div class="tovar-item__info green">*В наличии</div>
+                                   <div class="tovar-item__action">
+                                       <div class="tovar__count">
+                                           <input type="text" value="1">
+                                           <div class="count-btn">
+                                               <button class="" type="button">
+                                                    <object type="image/svg+xml" data="./img/up.svg"></object>
+                                               </button>
+                                               <button type="button">
+                                                    <object type="image/svg+xml" data="./img/down.svg"></object>
+                                               </button>
+                                           </div>
+                                       </div>
+                                       <a href=""><object type="image/svg+xml" data="./img/carta.svg"></object>В корзину</a>
+                                   </div>
+                               </div>
+                           </div>
+                           <div>
+                               <div class="tovar-item">
+                                   <div class="tovar-item__name">
+                                       <h3><a href="">Герметик для окон стеклопакетов</a></h3>
+                                   </div>
+                                   
+                                   <a href="" class="tovar-item__foto" style="background-image: url('./img/tovar/1.png')">
+                                       <span class="red">-15%</span>
+                                   </a>
+                                   <div class="tovar-item__price">
+                                       <div class="old-price">2765 ₽</div>
+                                       <div class="price">9643 ₽</div>
+                                   </div>
+                                   <div class="tovar-item__info green">*В наличии</div>
+                                   <div class="tovar-item__action">
+                                       <div class="tovar__count">
+                                           <input type="text" value="1">
+                                           <div class="count-btn">
+                                               <button class="" type="button">
+                                                    <object type="image/svg+xml" data="./img/up.svg"></object>
+                                               </button>
+                                               <button type="button">
+                                                    <object type="image/svg+xml" data="./img/down.svg"></object>
+                                               </button>
+                                           </div>
+                                       </div>
+                                       <a href=""><object type="image/svg+xml" data="./img/carta.svg"></object>В корзину</a>
+                                   </div>
+                               </div>   
+                           </div>
+                           
+                        </div>
+                    
+                    </div>   
+                </section>
+                <section class="main-section">
+                    <h2>Бренды:</h2>
+                    <div class="brand">
+                        <div class="brand__wrap">
+                            <div>
+                                <a href="" class="brand__item">
+                                    <img src="./img/b1.png">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="" class="brand__item">
+                                    <img src="./img/b2.png">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="" class="brand__item">
+                                    <img src="./img/b3.png">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="" class="brand__item">
+                                    <img src="./img/b4.png">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="" class="brand__item">
+                                    <img src="./img/b5.png">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="" class="brand__item">
+                                    <img src="./img/b1.png">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="" class="brand__item">
+                                    <img src="./img/b1.png">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="" class="brand__item">
+                                    <img src="./img/b2.png">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="" class="brand__item">
+                                    <img src="./img/b3.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="main-section">
+                    <h2>Хиты продаж:</h2>
+                    <div class="main-content__slider1">
+                        
+                        <div class="slider1__wrap">
+                            <div>
+                                <div class="tovar-item">
+                                    <div class="tovar-item__name">
+                                       <h3><a href="">Герметик для окон стеклопакетов</a></h3>
+                                   </div>
+                                   
+                                   <a href="" class="tovar-item__foto" style="background-image: url('./img/tovar/1.png')">
+                                       <span class="red">-15%</span>
+                                   </a>
+                                   <div class="tovar-item__price">
+                                       <div class="old-price">2765 ₽</div>
+                                       <div class="price">9643 ₽</div>
+                                   </div>
+                                   <div class="tovar-item__info green">*В наличии</div>
+                                   <div class="tovar-item__action">
+                                       <div class="tovar__count">
+                                           <input type="text" value="1">
+                                           <div class="count-btn">
+                                               <button class="" type="button">
+                                                    <object type="image/svg+xml" data="./img/up.svg"></object>
+                                               </button>
+                                               <button type="button">
+                                                    <object type="image/svg+xml" data="./img/down.svg"></object>
+                                               </button>
+                                           </div>
+                                       </div>
+                                       <a href=""><object type="image/svg+xml" data="./img/carta.svg"></object>В корзину</a>
+                                   </div>
+                               </div>
+                            </div>
+                           <div>
+                               <div class="tovar-item">
+                                   <div class="tovar-item__name">
+                                       <h3><a href="">Герметик для окон стеклопакетов и не только</a></h3>
+                                   </div>
+                                   
+                                   <a href="" class="tovar-item__foto" style="background-image: url('./img/tovar/2.png')">
+                                       <span class="green">Новинка</span>
+                                   </a>
+                                   <div class="tovar-item__price">
+                                       <div class="price">9643 ₽</div>
+                                   </div>
+                                   <div class="tovar-item__info red">*Нет в наличии</div>
+                                   <div class="tovar-item__action">
+                                       <div class="tovar__count">
+                                           <input type="text" value="1">
+                                           <div class="count-btn">
+                                               <button class="" type="button">
+                                                    <object type="image/svg+xml" data="./img/up.svg"></object>
+                                               </button>
+                                               <button type="button">
+                                                    <object type="image/svg+xml" data="./img/down.svg"></object>
+                                               </button>
+                                           </div>
+                                       </div>
+                                       <a href=""><object type="image/svg+xml" data="./img/carta.svg"></object>В корзину</a>
+                                   </div>
+                               </div>
+                           </div>
+                           <div>
+                               <div class="tovar-item">
+                                   <div class="tovar-item__name">
+                                       <h3><a href="">Герметик для окон стеклопакетов и не только</a></h3>
+                                   </div>
+                                   
+                                   <a href="" class="tovar-item__foto" style="background-image: url('./img/tovar/2.png')">
+                                       <span class="green">Новинка</span>
+                                   </a>
+                                   <div class="tovar-item__price">
+                                       <div class="price">9643 ₽</div>
+                                   </div>
+                                   <div class="tovar-item__info red">*Нет в наличии</div>
+                                   <div class="tovar-item__action">
+                                       <div class="tovar__count">
+                                           <input type="text" value="1">
+                                           <div class="count-btn">
+                                               <button class="" type="button">
+                                                    <object type="image/svg+xml" data="./img/up.svg"></object>
+                                               </button>
+                                               <button type="button">
+                                                    <object type="image/svg+xml" data="./img/down.svg"></object>
+                                               </button>
+                                           </div>
+                                       </div>
+                                       <a href=""><object type="image/svg+xml" data="./img/carta.svg"></object>В корзину</a>
+                                   </div>
+                               </div>
+                           </div>
+                           <div>
+                               <div class="tovar-item">
+                                   <div class="tovar-item__name">
+                                       <h3><a href="">Герметик для окон стеклопакетов</a></h3>
+                                   </div>
+                                   
+                                   <a href="" class="tovar-item__foto" style="background-image: url('./img/tovar/1.png')">
+                                       <span class="red">-15%</span>
+                                   </a>
+                                   <div class="tovar-item__price">
+                                       <div class="old-price">2765 ₽</div>
+                                       <div class="price">9643 ₽</div>
+                                   </div>
+                                   <div class="tovar-item__info green">*В наличии</div>
+                                   <div class="tovar-item__action">
+                                       <div class="tovar__count">
+                                           <input type="text" value="1">
+                                           <div class="count-btn">
+                                               <button class="" type="button">
+                                                    <object type="image/svg+xml" data="./img/up.svg"></object>
+                                               </button>
+                                               <button type="button">
+                                                    <object type="image/svg+xml" data="./img/down.svg"></object>
+                                               </button>
+                                           </div>
+                                       </div>
+                                       <a href=""><object type="image/svg+xml" data="./img/carta.svg"></object>В корзину</a>
+                                   </div>
+                               </div>
+                           </div>
+                           <div>
+                               <div class="tovar-item">
+                                   <div class="tovar-item__name">
+                                       <h3><a href="">Герметик для окон стеклопакетов</a></h3>
+                                   </div>
+                                   
+                                   <a href="" class="tovar-item__foto" style="background-image: url('./img/tovar/1.png')">
+                                       <span class="red">-15%</span>
+                                   </a>
+                                   <div class="tovar-item__price">
+                                       <div class="old-price">2765 ₽</div>
+                                       <div class="price">9643 ₽</div>
+                                   </div>
+                                   <div class="tovar-item__info green">*В наличии</div>
+                                   <div class="tovar-item__action">
+                                       <div class="tovar__count">
+                                           <input type="text" value="1">
+                                           <div class="count-btn">
+                                               <button class="" type="button">
+                                                    <object type="image/svg+xml" data="./img/up.svg"></object>
+                                               </button>
+                                               <button type="button">
+                                                    <object type="image/svg+xml" data="./img/down.svg"></object>
+                                               </button>
+                                           </div>
+                                       </div>
+                                       <a href=""><object type="image/svg+xml" data="./img/carta.svg"></object>В корзину</a>
+                                   </div>
+                               </div>   
+                           </div>
+                           
+                        </div>
+                    
+                    </div>   
+                </section>
+                <section class="main-section">
+                    <h2>Почему мы:</h2>
+                    <div class="why">
+                        <div class="why__item">
+                            <div class="why__img" style="background-image: url('./img/w1.png');"></div>
+                            <span>По телефону Вам ответит компетентный специалист, при заказе работ от 1000 р. выезд БЕСПЛАТНО!</span>
+                        </div>
+                        <div class="why__item">
+                            <div class="why__img" style="background-image: url('./img/w2.png');"></div>
+                            <span>При замене уплотнителя регулировка и смазка фурнитуры бесплатна, а также диагностика всех окон БЕСПЛАТНО!</span>
+                        </div>
+                        <div class="why__item">
+                            <div class="why__img" style="background-image: url('./img/w3.png');"></div>
+                            <span>Практически всегда можем сориентировать по конечной стоимости работ по телефону, кроме сложных ситуаций.</span>
+                        </div>
+                        <div class="why__item">
+                            <div class="why__img" style="background-image: url('./img/w1.png');"></div>
+                            <span>Для пенсионеров предусмотрена скидка,
+                            5% от суммы всего заказа.</span>
+                        </div>
+                        <div class="why__item">
+                            <div class="why__img" style="background-image: url('./img/w2.png');"></div>
+                            <span>Гарантия 2 года, мы Вас не бросим,
+                            нам важен каждый клиент, доверьте работу нам и вы не пожалеете.</span>
+                        </div>
+                        
+                    </div>
+                </section>
+                <section class="main-section">
+                    <h2><a href="">Новости:</a></h2>
+                    <div class="news">
+                        <div class="news__item">
+                            <a href="" class="news__img" style="background-image: url('./img/w1.png');"></a>
+                            <div class="news__data">12.02.20</div>
+                            <a href="" class="news__title">Заголовок новой новости</a>
+                            <p>Мы гордимся безупречной репутацией нашего магазина. Если товар не устроит вас, вы всегда сможете вернуть деньги. </p>
+                            <a href="" class="news__link">Подробнее></a>
+                        </div>
+                        <div class="news__item">
+                            <a href="" class="news__img" style="background-image: url('./img/w2.png');"></a>
+                            <div class="news__data">12.02.20</div>
+                            <a href="" class="news__title">Заголовок новой новости</a>
+                            <p>Мы гордимся безупречной репутацией нашего магазина. Если товар не устроит вас, вы всегда сможете вернуть деньги. </p>
+                            <a href="" class="news__link">Подробнее></a>
+                        </div>
+                        <div class="news__item">
+                            <a href="" class="news__img" style="background-image: url('./img/w3.png');"></a>
+                            <div class="news__data">12.02.20</div>
+                            <a href="" class="news__title">Заголовок новой новости</a>
+                            <p>Мы гордимся безупречной репутацией нашего магазина. Если товар не устроит вас, вы всегда сможете вернуть деньги. Если товар не устроит вас, вы всегда сможете вернуть деньги.</p>
+                            <a href="" class="news__link">Подробнее></a>
+                        </div>
+                    </div>                    
+                </section>
+            </div>
+        </div>
     </div>
     
 </div>
-<footer>
-    футер
-</footer>
+<footer class="footer">
+    <div class="wrap">
+        <div class="footer__wraper">
+            <div class="footer__l">
+                <a href="" class="footer__logo"><img src="./img/flogo.png"></a>
+                <a href="tel:+78129295200" class="footer__tel"><img src="./img/phone.png">+7 (812) 929 52 00</a>
+                <div class="footer__time"><img src="./img/time.png">ВРЕМЯ РАБОТЫ:<br> Пн-Пт 10-20, Сб-Вс 11-19</div>
+                <div class="footer__partner">
+                    <object type="image/svg+xml" data="./img/ficon.svg"></object>
+                    <a href="">Incomesite.ru</a>
+                </div>
+                <div class="footer__soc">
+                    <a href="" class="footer__vk"><i class="icon-vk"></i></a>
+                    <span>1</span>
 
-<script src="./js/jquery-3.2.1.min.js"></script>
-<script src="./js/slick.min.js"></script>
-<script src="./js/main.min.js"></script>
+                    <a href="" class="footer__fb"><i class="icon-fb"></i></a>
+                    <span>2</span>
+
+                    <a href="" class="footer__tw"><i class="icon-twitter"></i></object></a>
+                    <span>0</span>
+                </div>
+            </div>
+            <div class="footer__c">
+                <a href="">О компании</a>
+                <a href="">Акции </a>      
+                <a href="">Новости</a>
+                <a href="">Услуги</a>
+                <a href="">Доставка</a>
+                <a href="">Возврат</a>
+                <a href="">Сотрудничество</a>
+                <a href="">Бренды</a>
+                <a href="">Контакты</a>
+            </div>
+            <div class="footer__r">
+                <div class="footer__r__title">Каталог товаров:</div>
+                <div class="footer__r__wrap">
+                    <a href="">Уплотнители</a>
+                    <a href="">Герметики</a>
+                    <a href="">Инструмент</a>
+                    <a href="">Фурнитура</a>
+                    <a href="">Химия</a>
+                    <a href="">Монтажная пена</a>
+                    <a href="">Москитная сетка</a>
+                    <a href="">Откосы</a>
+                    <a href="">Подоконники</a>
+                    <a href="">Аксессуары</a>
+                    <a href="">Стеклопакеты</a>
+                    <a href="">Услуги</a>
+                    <a href="">Фурнитура</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</footer>
+<div id="map">
+    <div class="map__wrap" style="position:relative;"><iframe src="https://yandex.ru/map-widget/v1/-/CCQprPAKxB" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+    <div class="map__close">
+        <span></span>
+        <span></span>
+    </div>
+    </div>
+</div>
+<script src="./js/jquery-3.2.1.min.js?v=6f06100815850b3931d6dd1f68c7e44e"></script>
+<script src="./js/slick.min.js?v=6f06100815850b3931d6dd1f68c7e44e"></script>
+<script src="./js/main.min.js?v=6f06100815850b3931d6dd1f68c7e44e"></script>
 </body>
 
 </html>

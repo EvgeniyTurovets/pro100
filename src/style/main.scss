@@ -180,13 +180,13 @@ body {
 .header__search button{
     width: 41px;
     height: 100%;
+    top: 0;
     position: absolute;
     right: 0;
     background-color: #99d5e0;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-right: 3px;
+    padding-top: 2px;
 }
 @media(max-width: 1199px){
     .header__contact{

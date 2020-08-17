@@ -179,6 +179,20 @@ $(function(){
 			$('.burger').click()
 		}
 	});
+
+
+	if($('.tovar__top').length){
+		$('.tovar__slider__top').slick({
+			fade: true,
+			arrows: false,
+			asNavFor: '.tovar__slider__bot',
+		})
+
+		$('.tovar__slider__bot').slick({
+			slidesToShow: 3,
+			asNavFor: '.tovar__slider__top',
+		})
+	}
 })	
 
 

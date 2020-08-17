@@ -49,7 +49,8 @@
 
 .breadcrubm {
   font-size: 12px;
-  color: #bababa; }
+  color: #bababa;
+  width: 100%; }
 
 .breadcrubm a {
   text-decoration: underline;
@@ -72,7 +73,9 @@
   overflow: hidden; }
 
 .catalog h1 {
-  margin-top: 12px; }
+  margin-top: 12px;
+  width: 100%;
+  display: block; }
 
 .catalog__right {
   -ms-flex: 1;
@@ -391,3 +394,25 @@
     width: 100%; }
   .tovar-item__foto {
     height: 215px; } }
+
+.tovar__top {
+  margin-top: 50px; }
+
+.tovar__slider__top {
+  margin-bottom: 15px; }
+
+.tovar__top__item {
+  height: 350px;
+  width: 100%;
+  background-position: center;
+  background-size: cover; }
+
+.tovar__bot__item {
+  height: 60px;
+  width: 60px;
+  background-position: center;
+  background-size: cover; }
+
+.tovar__sliders {
+  width: 360px;
+  margin-right: 50px; }

@@ -189,6 +189,71 @@
 @media(max-width: 559px){
 	.catalog__item{
 		width: 100%;
+		padding-right: 0;
 	}
 
+}
+
+
+//каталог секция
+.catalog__filter{
+	border: 1px solid $grey2;
+	display: flex;
+}
+.filter__item{
+	height: 75px;
+	
+	width: calc(100% / 4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.filter__item:after{
+	content: "";
+	position: absolute;
+	display: block;
+	width: 1px;
+	right: -1px;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 49px;
+	background-color: $grey2;
+}
+.filter__item > span{
+	text-align: left;
+	display: flex;
+	width: 100%;
+	padding: 0 20px;
+}
+.filter__item a{
+	display: flex;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	padding: 0 20px;
+	justify-content: center;
+}
+.up-ar, .down-ar{
+	margin-left: 5px;
+}
+.down-ar{
+	position: relative;
+	margin-bottom: -10px;
+	
+}	
+.up-ar img:last-child{
+	display: none;
+}
+.down-ar img:last-child{
+	display: none;
+}
+.up .up-ar img{
+	display: none;
+}
+.up .up-ar img:last-child{
+	display: block;
+}
+.up{
+	border: 1px solid $blue;
 }

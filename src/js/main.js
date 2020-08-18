@@ -193,6 +193,23 @@ $(function(){
 			asNavFor: '.tovar__slider__top',
 		})
 	}
+
+	$('.header__call').click(function(){
+		$('.backcall').fadeIn();
+		return false;
+	})
+	$('.map__close.backcall__close').click(function(){
+		$('.backcall').fadeOut();
+	})
+
+	$('.backcall').mouseup(function (e){ // событие клика по веб-документу
+		var div = $(".backcall__wrap"); // тут указываем ID элемента
+		if (!div.is(e.target) // если клик был не по нашему блоку
+		    && div.has(e.target).length === 0) { // и не по его дочерним элементам
+			$('.backcall').fadeOut();
+		}
+	});
+	 
 })	
 
 

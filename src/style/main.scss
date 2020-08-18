@@ -601,7 +601,29 @@ a:focus{
   
     transform: translate(-50%, -50%);
 }
-
+.backcall__wrap2{
+    display: none;
+    background-color: #fff;
+    width: 400px;
+    height: auto;
+    padding: 15px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.backcall__wrap2 img{
+    width: 100px;
+    display: block;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.backcall__text{
+    margin-top: 25px;
+}
 .backcall__title{
     text-align: center;
     font-size: 25px;
@@ -652,5 +674,7 @@ a:focus{
         transform: translate(0);
         left: 0;
     }
-
+    
 }
+
+

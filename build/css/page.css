@@ -564,7 +564,9 @@
     left: 0;
     background-color: #fff;
     background-color: white;
-    border-top: 1px solid #bfbfbf; } }
+    border-top: 1px solid #bfbfbf; }
+  .footer {
+    padding-bottom: 75px; } }
 
 @media (max-width: 559px) {
   .tovar__buy__btn {
@@ -594,4 +596,4 @@
 
 @media (max-width: 374px) {
   .tovar__buy {
-    zoom: 0.7; } }
+    zoom: 0.75; } }

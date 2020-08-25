@@ -585,6 +585,9 @@
 		background-color: rgb(255, 255, 255);
 		border-top: 1px solid $grey2;
 	}
+	.footer{
+		padding-bottom: 75px;
+	}
 }
 @media(max-width: 559px){
 	.tovar__buy__btn{
@@ -623,6 +626,6 @@
 }
 @media(max-width: 374px){
 	.tovar__buy{
-		zoom: 0.7;
+		zoom: 0.75;
 	}
 }

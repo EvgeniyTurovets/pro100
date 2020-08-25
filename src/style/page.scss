@@ -68,7 +68,9 @@
 	color: #bababa;
 	position: absolute;
 }
-
+.breadcrubm li{
+	margin-bottom: 5px;
+}
 .catalog{
 	display: flex;
 	overflow: hidden;
@@ -423,6 +425,7 @@
 //товар
 .tovar__top{
 	margin-top: 50px;
+	display: flex;
 }
 .tovar__slider__top{
 	margin-bottom: 15px;
@@ -443,4 +446,183 @@
 .tovar__sliders{
 	width: 360px;
 	margin-right: 50px;
+}
+.tovar__slider__bot {
+	padding: 0 60px;
+}
+
+.tovar__slider__bot .slick-arrow{
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	font-size: 0;
+	cursor: pointer;
+	transition: 0.3s all;
+}
+.tovar__slider__bot .slick-arrow:hover{
+	background-color: #c2c2c2;
+}
+.tovar__slider__bot .slick-prev{
+	left: 0px;
+	top: 0;
+	background-image: url('../img/ll.png');
+}
+.tovar__slider__bot .slick-next{
+	right: 0;
+	top: 0;
+	background-image: url('../img/rr.png');
+}
+
+.tovar__bot__item{
+	border: 1px solid #c2c2c2;
+
+}
+.tovar__info{
+	margin-top: 25px;
+}
+.tovar__info div{
+	margin-bottom: 15px;
+}
+.tovar__info__green{
+	color: #05c500;
+	text-align: center;
+}
+.tovar__info__red{
+	color: #ff0018;
+	text-align: center;
+}
+.tovar__info__count{
+	text-align: center;
+	color: #929292;
+}
+.tovar__about__item{
+	margin-bottom: 20px;
+	max-width: 520px;
+}
+.tovar__about__title{
+	font-weight: 500;
+}
+.tovar__about__item.article{
+	color: #ff7239;
+}
+.tovar__action{
+	display: flex;
+}
+.tovar__buy__count{
+	display: flex;
+}
+.tovar__buy__count input{
+	height: 55px;
+	width: 55px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border: 1px solid $grey2;
+}
+.tovar__buy__count button{
+	cursor: pointer;
+}
+.tovar__buy{
+	display: flex;
+	align-items: center;
+	margin-top: 35px;
+}
+.tovar__price{
+	font-size: 34px;
+	font-weight: bold;
+	margin-right: 25px;
+}
+.count-btn object{
+	z-index: -1;
+}
+.tovar__buy__btn{
+	width: 220px;
+	height: 55px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f35c1e;
+    transition: .3s all;
+    color: #fff;
+    font-size: 18px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.tovar__buy__btn:hover{
+	box-shadow: 0 0 10px 1px #00000070 inset;
+}
+.tovar__buy__btn object{
+	margin-right: 15px;
+}
+.tovar__top{
+	margin-bottom: 38px;
+}
+@media(max-width: 1199px){
+	.tovar__top{
+		flex-direction: column;
+	}
+	.tovar__sliders{
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+
+	.tovar__buy{
+		justify-content: center;
+		margin-top: 25px;
+	}
+}
+@media(max-width: 991px){
+	.tovar__buy{
+		position: fixed;
+		z-index: 2;
+		width: 100%;
+		bottom: 0;
+		justify-content: space-around;
+		padding: 5px 15px;
+		left: 0;
+		background-color: #fff;
+		background-color: rgb(255, 255, 255);
+		border-top: 1px solid $grey2;
+	}
+}
+@media(max-width: 559px){
+	.tovar__buy__btn{
+		width: 175px;
+		height: 45px;
+	}
+	.tovar__buy__count input{
+		height: 45px;
+		width: 45px;
+	}
+	.tovar__price{
+		font-size: 26px;
+	}
+}
+@media(max-width: 450px){
+	.tovar__sliders{
+		width: 100%;
+		margin-bottom: 25px;
+	}
+	.catalog h1{
+		font-size: 26px;
+	}
+	.tovar__about__item{
+		margin-bottom: 10px;
+	}
+	.tovar__buy{
+		justify-content: space-between;
+	}
+	
+}
+
+@media(max-width: 424px){
+	.tovar__buy{
+		zoom: 0.9;
+	}
+}
+@media(max-width: 374px){
+	.tovar__buy{
+		zoom: 0.7;
+	}
 }

@@ -681,7 +681,7 @@ a:focus {
   display: block;
   position: relative; }
 
-:checked + label:before {
+.checkbox input:checked + label:before {
   content: "";
   width: 5px;
   position: absolute;

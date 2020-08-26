@@ -52,4 +52,38 @@ $(function() {
 			draggable: false,
 		})
 	}
+
+	$(function() {
+	var tab = $('#tabs .tabs-items > div'); 
+		tab.hide().filter(':first').show(); 
+		$('#tabs .tabs-nav a').click(function(){
+			tab.hide(); 
+			tab.filter(this.hash).show(); 
+			$('#tabs .tabs-nav a').removeClass('active');
+			$(this).addClass('active');
+			return false;
+		}).filter(':first').click();
+
+		$('.tabs-target').click(function(){
+			$('#tabs .tabs-nav a[href=' + $(this).data('id')+ ']').click();
+		});
+	});
+
+	$('.open1').click(function(){
+		let openParent = $(this).closest('.tabs-item')
+		openParent.find('.open1').hide()
+		openParent.find('.open1__wrap').hide()
+		openParent.find('.open2__wrap').fadeIn(200)
+		openParent.find('.open2').fadeIn(200)
+	})
+
+	$('.open2').click(function(){
+		let openParent = $(this).closest('.tabs-item')
+		openParent.find('.open2').hide()
+		openParent.find('.open2__wrap').hide()
+		openParent.find('.open1__wrap').fadeIn(200)
+		openParent.find('.open1').fadeIn(200)
+	})
+
+	
 })

@@ -1,803 +1,279 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="ru">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel='stylesheet' type='text/css' media='screen' href='./css/slick.min.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./css/base.min.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./css/main.min.css'>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap&v=8707a02958df7e780e6e61324a7f7d6e" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;700&display=swap&v=8707a02958df7e780e6e61324a7f7d6e" rel="stylesheet">
+    <link href="css/animate.min.css?v=8707a02958df7e780e6e61324a7f7d6e" rel="stylesheet" />
+    <link href="css/selectric.min.css?v=8707a02958df7e780e6e61324a7f7d6e" rel="stylesheet" />
+    <link href="css/main.min.css?v=8707a02958df7e780e6e61324a7f7d6e" rel="stylesheet" />
+    
+    <title>Home</title>
 </head>
-
 <body>
 
 <div class="app">
     <header class="header">
-        <div class="header__top">
-            <div class="wrap">
-                <div class="col-12 header__login">
-                    <a href="">ВХОД</a>
-                    <a href="">РЕГИСТРАЦИЯ</a>
-                </div>
-                <div class="burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-        </div>
-        <div class="mob-header">
-            <div class="mob-header__menu"></div>
-        </div>
-
-        <div class="header__center">
-            <div class="wrap">
-                <div class="row">
-                    
-                    <a href="" class="logo">
-                        <img src="./img/logo.png">
-                        <div>Строительные товары</div> 
-                    </a>
-                
-                
-                    <div class="header__contact">
-                        <a href="tel:+78129295200" class="header__contact__item header__contact-first"><img src="./img/phone.png">+7 (812) 929 52 00</a>
-                        <div class="header__contact__item"><img src="./img/time.png">Пн-Пт 10-20, Сб-Вс 11-19</div>
-                        <a href="" class="header__contact__item header__contact-last"><img src="./img/map.png">СПБ, ул. Якорная 14 кв.1 </a>
-                    </div>
-               
-                
-                    <div class="header__search">
-                        <a href="" class="header__call">Обратный звонок</a>
-                        <form>
-                            <input type="text" name="" placeholder="Найти">
-                            <button><img src="./img/lopa.png"></button>
-                        </form>
-                    </div>
-               
-
-                
-                    <div class="cart">
-                        <div class="cart__left">
-                            <a href=""><img src="./img/cart.png"></a>
-                        </div>
-                        <div class="cart__right">
-                            <div class="car__sum">КОРЗИНА <span>0 ₽</span></div>
-                            <a href="">Выберите товары</a>
-                        </div>
-                    </div>
-                   
-                   
-                </div>
-            </div>
-        </div>
-
-        <div class="header__menu">
-            <div class="wrap">                                                                  
-                <ul class="menu">
-                    <li class="menu__item sub-menu"><a href="">Каталог</a>
-                        <div class="sub-menu__wrap">
-                            <div class="sub-menu__back">
-                               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="29px"> <image x="0px" y="0px" width="18px" height="29px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAdBAMAAABVtiGxAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAHlBMVEVBcYNBcYRAcYNAcIP///9BcYNAcINBcYRAcYP////iOsJTAAAABXRSTlMAAAAAAMJrBrEAAAABYktHRASPaNlRAAAAB3RJTUUH5AgHCS8LZrlaJgAAAOFJREFUGNMdj8FOwzAQRDes6DmJpZ5DLHG2MyLlA/wBSBCLY0vidX4ggXslw2ez7W2keTM7S1UP1GjfAsFWLcy4qYKzQC4L9d6iPq5bJtTGdNv6u5DjwY9/qQRSEDHmWRMVxlQSAjkYEbn4QDwck4jlQMbLlGaoi1EkwjrlfrJcB6h7UorhnwKJ7FcD1wQ6rLLrLm3xaYtzx8oNp0ky31tY8vp+UzS8inwaVfxQp326qGpcd5BSNKFw9y1yvv3G1Yveuf/mOIos6jK3jzqWbM+2tTl9UNdaGDxH3ezqqmH+Cv/0rD2w8q6L5gAAAABJRU5ErkJggg=="></image> </svg>
-                                <span>Назад</span>
-                            </div>
-                            <div class="sub-menu__level1">
-                                <a href="">Уплотнители</a>
-                                <div class="sub-menu__wrap__level2">
-                                    <a href="" class="sub-menu__level2">Для монтажа окон</a>
-                                    <a href="" class="sub-menu__level2">Силиконовые универсальные</a>
-                                    <a href="" class="sub-menu__level2">Силиконовые санитарные</a>
-                                    <a href="" class="sub-menu__level2">Силиконовые нейтральные</a>
-                                </div>
-                            </div>
-                            <div class="sub-menu__level1">
-                                <a href="">Герметики</a>
-                                <div class="sub-menu__wrap__level2">
-                                    <a href="" class="sub-menu__level2">Для монтажа окон</a>
-                                    <a href="" class="sub-menu__level2">Силиконовые универсальные</a>
-                                    <a href="" class="sub-menu__level2">Силиконовые санитарные</a>
-                                    <a href="" class="sub-menu__level2">Силиконовые нейтральные</a>
-                                </div>
-                            </div>
-                            <div class="sub-menu__level1">
-                                <a href="">Инструмент</a>
-                            </div>
-                             <div class="sub-menu__level1">
-                                <a href="">Фурнитура</a>
-                            </div>
-                             <div class="sub-menu__level1">
-                                <a href="">Химия</a>
-                            </div>
-                             <div class="sub-menu__level1">
-                                <a href="">Монтажная пена</a>
-                            </div>
-                             <div class="sub-menu__level1">
-                                <a href="">Москитные сетки</a>
-                            </div>
-                             <div class="sub-menu__level1">
-                                <a href="">Откосы </a>
-                            </div>
-                             <div class="sub-menu__level1">
-                                <a href="">Подоконники</a>
-                            </div>
-                             <div class="sub-menu__level1">
-                                <a href="">Аксессуары</a>
-                            </div>
-                             <div class="sub-menu__level1">
-                                <a href="">Монтажнные материалы</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="menu__item active"><a href="">О компании</a></li>
-                    <li class="menu__item"><a href="">Акции</a></li>
-                    <li class="menu__item"><a href="">Новости</a></li>
-                    <li class="menu__item"><a href="">Услуги</a></li>
-                    <li class="menu__item"><a href="">Доставка</a></li>
-                    <li class="menu__item"><a href="">Возврат</a></li>
-                    <li class="menu__item"><a href="">Сотрудничество</a></li>
-                    <li class="menu__item"><a href="">БРЕНды </a></li>
-                    <li class="menu__item"><a href="">Контакты</a></li>
-                </ul>
-            </div>
-        </div>
         <div class="wrap">
-            <div class="menu__catalog">
-                <a href="" class="menu__catalog__item">
-                    <img src="./img/1.png">
-                    <img src="./img/11.png">
-                    <span>Уплотнители</span>
+            <div class="header__wraper">
+                <a href="" class="logo">
+                    <img src="./img/logo.svg">
                 </a>
-                <a href="" class="menu__catalog__item">
-                    <img src="./img/2.png">
-                    <img src="./img/22.png">
-                    <span>Герметики</span>
-                </a>    
-                <a href="" class="menu__catalog__item">
-                    <img src="./img/3.png">
-                    <img src="./img/33.png">
-                    <span>Инструмент</span>
-                </a>    
-                <a href="" class="menu__catalog__item">
-                    <img src="./img/4.png">
-                    <img src="./img/44.png">
-                    <span>Фурнитура</span>
-                </a>    
-                <a href="" class="menu__catalog__item">
-                    <img src="./img/5.png">
-                    <img src="./img/55.png">
-                    <span>Химия</span>
-                </a>    
-                <a href="" class="menu__catalog__item">
-                    <img src="./img/6.png">
-                    <img src="./img/66.png">
-                    <span>Монтажная пена</span>
-                </a>    
-                <a href="" class="menu__catalog__item">
-                    <img src="./img/7.png">
-                    <img src="./img/77.png">
-                    <span>Москитные сетки</span>
-                </a>    
-                <a href="" class="menu__catalog__item">
-                    <img src="./img/8.png">
-                    <img src="./img/88.png">
-                    <span>Откосы</span>
-                </a>    
-                <a href="" class="menu__catalog__item">
-                    <img src="./img/9.png">
-                    <img src="./img/99.png">
-                    <span>Подоконники</span>
-                </a>    
-                <a href="" class="menu__catalog__item">
-                    <img src="./img/10.png">
-                    <img src="./img/101.png">
-                    <span>Аксессуары</span>
-                </a>    
-                    
+                <div class="header__right">
+                    <div class="nav">
+                        <a href="" class="nav__item active">О холдинге</a>
+                        <a href="" class="nav__item">Активы</a>
+                        <a href="" class="nav__item">Раскрытие информации</a>
+                        <a href="" class="nav__item">Контакты</a>
+                    </div>
+                    <div class="lang">рус
+                        <div class="lang__wrap">
+                            <a href="">en</a>
+                            <a href="">укр</a>
+                        </div>
+                    </div>
+                    <div class="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
-    <div class="content">
-        <div class="main-slider">
-            <div class="main-slider__wraper">
-                <div class="main-slider__item" style="background-image: url('./img/slider/1.jpg');">
-                    <div class="wrap">
-                        <div class="main-slider__content">
-                            <span class="main-slider__text">
-                                ПРИ ЗАКАЗЕ ОТ 5000 руб.<br>
-                                ВЕЗЕМ БЕСПЛАТНО <br>
-                                ПО СПБ
-                            </span>
-                        
-                        </div>
-                    </div>
-                </div>
-                <div class="main-slider__item" style="background-image: url('./img/slider/2.jpg');">
-                    <div class="wrap">
-                        <div class="main-slider__content">
-                            <span class="main-slider__text">
-                                ДОСТАВЛЯЕМ<br> В  РЕГИОНЫ!
-                            </span>
-                           
-                        </div>
-                    </div>
-                </div>
-                <div class="main-slider__item" style="background-image: url('./img/slider/3.jpg');">
-                    <div class="wrap">
-                        <div class="main-slider__content">
-                            <span class="main-slider__text">
-                                CТРОЙМАТЕРИАЛЫ<br> ПО ОТЛИЧНЫМ ЦЕНАМ
-                            </span>
-                            <a href="" class="main-slider__btn">Узнать подробнее</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="main-slider__arrows">
-                <div class="wrap">
-                    <div class="main-slider__prev main-slider__arrow">
-                        <svg 
-                         xmlns="http://www.w3.org/2000/svg"
-                         xmlns:xlink="http://www.w3.org/1999/xlink"
-                         width="26px" height="39px">
-                        <image  x="0px" y="0px" width="26px" height="39px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAnCAQAAAC7p5A2AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCAYRGCIehffTAAABTElEQVRIx52Vu0sDQRCH54ziA6KComCXWrCwEKwV9A+QpBYf2FqltkphrxbWWgqCkMbCQsRW0FYrC4OQICiBcJ/FcdxOco/NzDZ7zH7M7v3mESDeNiUT0pZQZNQb2ZJ9mZcHOZMvwW8d8k1kJ5R8gBHqdIntkbliZIwGPRK7o1yElDnHtR+qSD6ywJVC2hxRyocqNBXSohp5spEVnhXyzkbsy0LWeVXIC2uJNx3Z5kMhTyy7/jSkRkshTSr6xCByQEch1yz2n+kXss6fQi6YHbyL+zHJKaED9GgwnvbmZDvDpYrR5ThLjnizxI1COuxlyx5rf6+QT3by0ksIWFXah7yxmZ/GwjS3Ksovu0XlYoxkepP57xl1MmaEMfeMWW6uJ8FUuYKpRwimbhTlydB9TzB1WMHUyyPBh54agmk+RUtNwsB7UDsz1x9ypvs/yommNHKwb+8AAAAASUVORK5CYII=" />
-                        </svg>
-                    </div>
-                    <div class="main-slider__next main-slider__arrow">
-                        <svg 
-                         xmlns="http://www.w3.org/2000/svg"
-                         xmlns:xlink="http://www.w3.org/1999/xlink"
-                         width="26px" height="39px">
-                        <image  x="0px" y="0px" width="26px" height="39px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAnCAQAAAC7p5A2AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfkCAYRFxfPri8/AAABMElEQVRIx7XVr0uDURTG8efdJmKYDoQJtmXBYBBMBg3+AaJZRBGbadm0YBYNyxoFQZjBKGIVtGqyTMEhTAdzX8OLuAPCed8Dnps/HO6950eCJBVU0ae6yhglSVXtalEvauoyo6LIPmm8so2yHDHJNT/Ro04hCypzwW/0aTDiI7HGO8NxRNlHRXZ4M+yEqofSbG3DWtR8JJZ4NOyWWR+Jee4Mu2fBR2KGG8OeWPGRqNEyrM26j8QUp4Z12PKRqHBs2Ad1++F/v88oDfpDbMABYx4SYo+eyddkwkdik45hZ0z7SKzybNhVWideGyzzwMDUyRyJ33IbdE22c8b/IVPgToHXy/1PgYoI1F6gygP9FOjcwIwITKPccy80YQOzPLQ1QvspsAlL+tKhyLdzk8h2/wZuvadJal9ZpAAAAABJRU5ErkJggg==" />
-                        </svg>
-                    </div>
-                </div>
+
+    <div class="main-first">
+        <div class="left__sec" style="background-image: url('./img/mainleft.jpg');"></div>
+        <div class="right__sec" style="background-color:#BE1F30; background-image: url(./img/union.png);"></div>
+        <h1>От Тулы<br> до Находки</h1>
+    </div>
+
+    <div class="main-mission">
+        <div class="left50 ">
+            <div class="main-misiion__text ">
+                <div class="main-mission__title">Цель Холдинга "ТОР"</div>
+                <p>Консолидировать компетенции производственных предприятий и обеспечить их устойчивое развития для выхода на новые рынки.</p>
             </div>
         </div>
-       
-        <div class="main-content">
-            <div class="wrap">
-                <h1>Строительные материалы для окон:</h1>
-                <section class="main-section">
-                    <h2>Акции:</h2>
-                    <div class="main-content__slider1">
-                        
-                        <div class="slider1__wrap">
-                            <div>
-                                <div class="tovar-item">
-                                    <div class="tovar-item__name">
-                                       <h3><a href="">Герметик для окон стеклопакетов</a></h3>
-                                   </div>
-                                   
-                                   <a href="" class="tovar-item__foto" style="background-image: url('./img/tovar/1.png')">
-                                       <span class="red">-15%</span>
-                                   </a>
-                                   <div class="tovar-item__price">
-                                       <div class="old-price">2765 ₽</div>
-                                       <div class="price">9643 ₽</div>
-                                   </div>
-                                   <div class="tovar-item__info green">*В наличии</div>
-                                   <div class="tovar-item__action">
-                                       <div class="tovar__count">
-                                           <input type="text" value="1">
-                                           <div class="count-btn">
-                                               <button class="" type="button">
-                                                    <object type="image/svg+xml" data="./img/up.svg"></object>
-                                               </button>
-                                               <button type="button">
-                                                    <object type="image/svg+xml" data="./img/down.svg"></object>
-                                               </button>
-                                           </div>
-                                       </div>
-                                       <a href=""><object type="image/svg+xml" data="./img/carta.svg"></object>В корзину</a>
-                                   </div>
-                               </div>
-                            </div>
-                           <div>
-                               <div class="tovar-item">
-                                   <div class="tovar-item__name">
-                                       <h3><a href="">Герметик для окон стеклопакетов и не только</a></h3>
-                                   </div>
-                                   
-                                   <a href="" class="tovar-item__foto" style="background-image: url('./img/tovar/2.png')">
-                                       <span class="green">Новинка</span>
-                                   </a>
-                                   <div class="tovar-item__price">
-                                       <div class="price">9643 ₽</div>
-                                   </div>
-                                   <div class="tovar-item__info red">*Нет в наличии</div>
-                                   <div class="tovar-item__action">
-                                       <div class="tovar__count">
-                                           <input type="text" value="1">
-                                           <div class="count-btn">
-                                               <button class="" type="button">
-                                                    <object type="image/svg+xml" data="./img/up.svg"></object>
-                                               </button>
-                                               <button type="button">
-                                                    <object type="image/svg+xml" data="./img/down.svg"></object>
-                                               </button>
-                                           </div>
-                                       </div>
-                                       <a href=""><object type="image/svg+xml" data="./img/carta.svg"></object>В корзину</a>
-                                   </div>
-                               </div>
-                           </div>
-                           <div>
-                               <div class="tovar-item">
-                                   <div class="tovar-item__name">
-                                       <h3><a href="">Герметик для окон стеклопакетов и не только</a></h3>
-                                   </div>
-                                   
-                                   <a href="" class="tovar-item__foto" style="background-image: url('./img/tovar/2.png')">
-                                       <span class="green">Новинка</span>
-                                   </a>
-                                   <div class="tovar-item__price">
-                                       <div class="price">9643 ₽</div>
-                                   </div>
-                                   <div class="tovar-item__info red">*Нет в наличии</div>
-                                   <div class="tovar-item__action">
-                                       <div class="tovar__count">
-                                           <input type="text" value="1">
-                                           <div class="count-btn">
-                                               <button class="" type="button">
-                                                    <object type="image/svg+xml" data="./img/up.svg"></object>
-                                               </button>
-                                               <button type="button">
-                                                    <object type="image/svg+xml" data="./img/down.svg"></object>
-                                               </button>
-                                           </div>
-                                       </div>
-                                       <a href=""><object type="image/svg+xml" data="./img/carta.svg"></object>В корзину</a>
-                                   </div>
-                               </div>
-                           </div>
-                           <div>
-                               <div class="tovar-item">
-                                   <div class="tovar-item__name">
-                                       <h3><a href="">Герметик для окон стеклопакетов</a></h3>
-                                   </div>
-                                   
-                                   <a href="" class="tovar-item__foto" style="background-image: url('./img/tovar/1.png')">
-                                       <span class="red">-15%</span>
-                                   </a>
-                                   <div class="tovar-item__price">
-                                       <div class="old-price">2765 ₽</div>
-                                       <div class="price">9643 ₽</div>
-                                   </div>
-                                   <div class="tovar-item__info green">*В наличии</div>
-                                   <div class="tovar-item__action">
-                                       <div class="tovar__count">
-                                           <input type="text" value="1">
-                                           <div class="count-btn">
-                                               <button class="" type="button">
-                                                    <object type="image/svg+xml" data="./img/up.svg"></object>
-                                               </button>
-                                               <button type="button">
-                                                    <object type="image/svg+xml" data="./img/down.svg"></object>
-                                               </button>
-                                           </div>
-                                       </div>
-                                       <a href=""><object type="image/svg+xml" data="./img/carta.svg"></object>В корзину</a>
-                                   </div>
-                               </div>
-                           </div>
-                           <div>
-                               <div class="tovar-item">
-                                   <div class="tovar-item__name">
-                                       <h3><a href="">Герметик для окон стеклопакетов</a></h3>
-                                   </div>
-                                   
-                                   <a href="" class="tovar-item__foto" style="background-image: url('./img/tovar/1.png')">
-                                       <span class="red">-15%</span>
-                                   </a>
-                                   <div class="tovar-item__price">
-                                       <div class="old-price">2765 ₽</div>
-                                       <div class="price">9643 ₽</div>
-                                   </div>
-                                   <div class="tovar-item__info green">*В наличии</div>
-                                   <div class="tovar-item__action">
-                                       <div class="tovar__count">
-                                           <input type="text" value="1">
-                                           <div class="count-btn">
-                                               <button class="" type="button">
-                                                    <object type="image/svg+xml" data="./img/up.svg"></object>
-                                               </button>
-                                               <button type="button">
-                                                    <object type="image/svg+xml" data="./img/down.svg"></object>
-                                               </button>
-                                           </div>
-                                       </div>
-                                       <a href=""><object type="image/svg+xml" data="./img/carta.svg"></object>В корзину</a>
-                                   </div>
-                               </div>   
-                           </div>
-                           
-                        </div>
-                    
-                    </div>   
-                </section>
-                <section class="main-section">
-                    <h2>Бренды:</h2>
-                    <div class="brand">
-                        <div class="brand__wrap">
-                            <div>
-                                <a href="" class="brand__item">
-                                    <img src="./img/b1.png">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="" class="brand__item">
-                                    <img src="./img/b2.png">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="" class="brand__item">
-                                    <img src="./img/b3.png">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="" class="brand__item">
-                                    <img src="./img/b4.png">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="" class="brand__item">
-                                    <img src="./img/b5.png">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="" class="brand__item">
-                                    <img src="./img/b1.png">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="" class="brand__item">
-                                    <img src="./img/b1.png">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="" class="brand__item">
-                                    <img src="./img/b2.png">
-                                </a>
-                            </div>
-                            <div>
-                                <a href="" class="brand__item">
-                                    <img src="./img/b3.png">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="main-section">
-                    <h2>Хиты продаж:</h2>
-                    <div class="main-content__slider1">
-                        
-                        <div class="slider1__wrap">
-                            <div>
-                                <div class="tovar-item">
-                                    <div class="tovar-item__name">
-                                       <h3><a href="">Герметик для окон стеклопакетов</a></h3>
-                                   </div>
-                                   
-                                   <a href="" class="tovar-item__foto" style="background-image: url('./img/tovar/1.png')">
-                                       <span class="red">-15%</span>
-                                   </a>
-                                   <div class="tovar-item__price">
-                                       <div class="old-price">2765 ₽</div>
-                                       <div class="price">9643 ₽</div>
-                                   </div>
-                                   <div class="tovar-item__info green">*В наличии</div>
-                                   <div class="tovar-item__action">
-                                       <div class="tovar__count">
-                                           <input type="text" value="1">
-                                           <div class="count-btn">
-                                               <button class="" type="button">
-                                                    <object type="image/svg+xml" data="./img/up.svg"></object>
-                                               </button>
-                                               <button type="button">
-                                                    <object type="image/svg+xml" data="./img/down.svg"></object>
-                                               </button>
-                                           </div>
-                                       </div>
-                                       <a href=""><object type="image/svg+xml" data="./img/carta.svg"></object>В корзину</a>
-                                   </div>
-                               </div>
-                            </div>
-                           <div>
-                               <div class="tovar-item">
-                                   <div class="tovar-item__name">
-                                       <h3><a href="">Герметик для окон стеклопакетов и не только</a></h3>
-                                   </div>
-                                   
-                                   <a href="" class="tovar-item__foto" style="background-image: url('./img/tovar/2.png')">
-                                       <span class="green">Новинка</span>
-                                   </a>
-                                   <div class="tovar-item__price">
-                                       <div class="price">9643 ₽</div>
-                                   </div>
-                                   <div class="tovar-item__info red">*Нет в наличии</div>
-                                   <div class="tovar-item__action">
-                                       <div class="tovar__count">
-                                           <input type="text" value="1">
-                                           <div class="count-btn">
-                                               <button class="" type="button">
-                                                    <object type="image/svg+xml" data="./img/up.svg"></object>
-                                               </button>
-                                               <button type="button">
-                                                    <object type="image/svg+xml" data="./img/down.svg"></object>
-                                               </button>
-                                           </div>
-                                       </div>
-                                       <a href=""><object type="image/svg+xml" data="./img/carta.svg"></object>В корзину</a>
-                                   </div>
-                               </div>
-                           </div>
-                           <div>
-                               <div class="tovar-item">
-                                   <div class="tovar-item__name">
-                                       <h3><a href="">Герметик для окон стеклопакетов и не только</a></h3>
-                                   </div>
-                                   
-                                   <a href="" class="tovar-item__foto" style="background-image: url('./img/tovar/2.png')">
-                                       <span class="green">Новинка</span>
-                                   </a>
-                                   <div class="tovar-item__price">
-                                       <div class="price">9643 ₽</div>
-                                   </div>
-                                   <div class="tovar-item__info red">*Нет в наличии</div>
-                                   <div class="tovar-item__action">
-                                       <div class="tovar__count">
-                                           <input type="text" value="1">
-                                           <div class="count-btn">
-                                               <button class="" type="button">
-                                                    <object type="image/svg+xml" data="./img/up.svg"></object>
-                                               </button>
-                                               <button type="button">
-                                                    <object type="image/svg+xml" data="./img/down.svg"></object>
-                                               </button>
-                                           </div>
-                                       </div>
-                                       <a href=""><object type="image/svg+xml" data="./img/carta.svg"></object>В корзину</a>
-                                   </div>
-                               </div>
-                           </div>
-                           <div>
-                               <div class="tovar-item">
-                                   <div class="tovar-item__name">
-                                       <h3><a href="">Герметик для окон стеклопакетов</a></h3>
-                                   </div>
-                                   
-                                   <a href="" class="tovar-item__foto" style="background-image: url('./img/tovar/1.png')">
-                                       <span class="red">-15%</span>
-                                   </a>
-                                   <div class="tovar-item__price">
-                                       <div class="old-price">2765 ₽</div>
-                                       <div class="price">9643 ₽</div>
-                                   </div>
-                                   <div class="tovar-item__info green">*В наличии</div>
-                                   <div class="tovar-item__action">
-                                       <div class="tovar__count">
-                                           <input type="text" value="1">
-                                           <div class="count-btn">
-                                               <button class="" type="button">
-                                                    <object type="image/svg+xml" data="./img/up.svg"></object>
-                                               </button>
-                                               <button type="button">
-                                                    <object type="image/svg+xml" data="./img/down.svg"></object>
-                                               </button>
-                                           </div>
-                                       </div>
-                                       <a href=""><object type="image/svg+xml" data="./img/carta.svg"></object>В корзину</a>
-                                   </div>
-                               </div>
-                           </div>
-                           <div>
-                               <div class="tovar-item">
-                                   <div class="tovar-item__name">
-                                       <h3><a href="">Герметик для окон стеклопакетов</a></h3>
-                                   </div>
-                                   
-                                   <a href="" class="tovar-item__foto" style="background-image: url('./img/tovar/1.png')">
-                                       <span class="red">-15%</span>
-                                   </a>
-                                   <div class="tovar-item__price">
-                                       <div class="old-price">2765 ₽</div>
-                                       <div class="price">9643 ₽</div>
-                                   </div>
-                                   <div class="tovar-item__info green">*В наличии</div>
-                                   <div class="tovar-item__action">
-                                       <div class="tovar__count">
-                                           <input type="text" value="1">
-                                           <div class="count-btn">
-                                               <button class="" type="button">
-                                                    <object type="image/svg+xml" data="./img/up.svg"></object>
-                                               </button>
-                                               <button type="button">
-                                                    <object type="image/svg+xml" data="./img/down.svg"></object>
-                                               </button>
-                                           </div>
-                                       </div>
-                                       <a href=""><object type="image/svg+xml" data="./img/carta.svg"></object>В корзину</a>
-                                   </div>
-                               </div>   
-                           </div>
-                           
-                        </div>
-                    
-                    </div>   
-                </section>
-                <section class="main-section">
-                    <h2>Почему мы:</h2>
-                    <div class="why">
-                        <div class="why__item">
-                            <div class="why__img" style="background-image: url('./img/w1.png');"></div>
-                            <span>По телефону Вам ответит компетентный специалист, при заказе работ от 1000 р. выезд БЕСПЛАТНО!</span>
-                        </div>
-                        <div class="why__item">
-                            <div class="why__img" style="background-image: url('./img/w2.png');"></div>
-                            <span>При замене уплотнителя регулировка и смазка фурнитуры бесплатна, а также диагностика всех окон БЕСПЛАТНО!</span>
-                        </div>
-                        <div class="why__item">
-                            <div class="why__img" style="background-image: url('./img/w3.png');"></div>
-                            <span>Практически всегда можем сориентировать по конечной стоимости работ по телефону, кроме сложных ситуаций.</span>
-                        </div>
-                        <div class="why__item">
-                            <div class="why__img" style="background-image: url('./img/w1.png');"></div>
-                            <span>Для пенсионеров предусмотрена скидка,
-                            5% от суммы всего заказа.</span>
-                        </div>
-                        <div class="why__item">
-                            <div class="why__img" style="background-image: url('./img/w2.png');"></div>
-                            <span>Гарантия 2 года, мы Вас не бросим,
-                            нам важен каждый клиент, доверьте работу нам и вы не пожалеете.</span>
-                        </div>
-                        
-                    </div>
-                </section>
-                <section class="main-section">
-                    <h2><a href="">Новости:</a></h2>
-                    <div class="news">
-                        <div class="news__item">
-                            <a href="" class="news__img" style="background-image: url('./img/w1.png');"></a>
-                            <div class="news__data">12.02.20</div>
-                            <a href="" class="news__title">Заголовок новой новости</a>
-                            <p>Мы гордимся безупречной репутацией нашего магазина. Если товар не устроит вас, вы всегда сможете вернуть деньги. </p>
-                            <a href="" class="news__link">Подробнее></a>
-                        </div>
-                        <div class="news__item">
-                            <a href="" class="news__img" style="background-image: url('./img/w2.png');"></a>
-                            <div class="news__data">12.02.20</div>
-                            <a href="" class="news__title">Заголовок новой новости</a>
-                            <p>Мы гордимся безупречной репутацией нашего магазина. Если товар не устроит вас, вы всегда сможете вернуть деньги. </p>
-                            <a href="" class="news__link">Подробнее></a>
-                        </div>
-                        <div class="news__item">
-                            <a href="" class="news__img" style="background-image: url('./img/w3.png');"></a>
-                            <div class="news__data">12.02.20</div>
-                            <a href="" class="news__title">Заголовок новой новости</a>
-                            <p>Мы гордимся безупречной репутацией нашего магазина. Если товар не устроит вас, вы всегда сможете вернуть деньги. Если товар не устроит вас, вы всегда сможете вернуть деньги.</p>
-                            <a href="" class="news__link">Подробнее></a>
-                        </div>
-                    </div>                    
-                </section>
+        <div class="right50" style="background-image: url('./img/mm.jpg');"></div>
+    </div>
+
+    <div class="main-cifri">
+        <div class="wrap">
+            <div class="main-cifri__wrap">
+                <div class="main-cifri__item">
+                    <div class="main-cifri__num price">2018</div>
+                    <span>Год основания</span>
+                </div>
+                <div class="main-cifri__item">
+                    <div class="main-cifri__num price">24</div>
+                    <span>Компаний</span>
+                </div>
+                <div class="main-cifri__item">
+                    <div class="main-cifri__num v price">150</div>
+                    <span>Видов продукции</span>
+                </div>
+                <div class="main-cifri__item">
+                    <div class="main-cifri__num price">12 0000</div>
+                    <span>Рабочих мест</span>
+                </div>
             </div>
         </div>
     </div>
-    
-</div>
-<footer class="footer">
-    <div class="wrap">
+
+    <div class="o-hildinge">
+        <div class="left50" style="background-image: url('./img/oh2.jpg');"></div>
+        <div class="right50">
+            <div class="o-holdinge__top" style="background-image: url(./img/oh.png);">
+                <h2 class="h2b">О холдинге</h2>
+            </div>
+            <div class="o-holdinge__bot wow slideInRight">
+                <div class="o-holdinge__text">
+                    <p>Холдинг «ТОР» объединяет предприятия в области машиностроения, судостроения, агропродовольственного сектора. Наша цель постоянно улучшать качество выпускаемой продукции за счет накопленного опыта и повышения компетенций.</p>
+                    <a class="red-more" href="">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="left50">
+            <div class="slider__leftwrap">
+                <h2 class="h2b">Компании<br> холдинга</h2>
+                <div class="slider__left">
+                    <div class="slider__left__item"></div>
+                    <div class="slider__left__item"></div>
+                    <div class="slider__left__item"></div>
+                    <div class="slider__left__item"></div>
+                </div>
+                <a href="" class="red-more">Подробнее</a>
+               
+            </div>
+            <div class="slider__arrow">
+                <img src="./img/linear.svg"> 
+            </div>
+        </div>
+        <div class="right50">
+            <div class="slider__right">
+                <div>
+                    <div class="slider__right__item" style="background:  linear-gradient(90.72deg, rgba(0, 0, 0, 0.79) 49.56%, rgba(0, 0, 0, 0) 98.49%), url('./img/slide1.jpg');">
+                        <div class="slider__right__title">
+                            <img src="./img/slide1.svg">
+                            АО “АК”Туламашзавод”
+                        </div>
+                        <div class="slider__right__text">
+                            Многопрофильное производственное объединение выпускающее продукцию для ОПК.
+                        </div>
+                        <div class="slider__right__textinvisible">Продолжаем славные традиции тульских мастеров</div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="slider__right__item" style="background: linear-gradient(90.72deg, rgba(0, 0, 0, 0.79) 49.56%, rgba(0, 0, 0, 0) 98.49%), url('./img/slide2.jpg');">
+                        <div class="slider__right__title">
+                            <img src="./img/slidei2.svg">
+                            АО "Тулаточмаш"
+                        </div>
+                        <div class="slider__right__text">
+                            производственное объединение выпускающее продукцию для ОПК
+                        </div>
+                        <div class="slider__right__textinvisible">Продолжаем славные традиции тульских мастеров</div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="slider__right__item" style="background: linear-gradient(90.72deg, rgba(0, 0, 0, 0.79) 49.56%, rgba(0, 0, 0, 0) 98.49%), url('./img/slide3.jpg');">
+                        <div class="slider__right__title">
+                            <img src="./img/slidei3.svg">
+                            ООО "ТОЗ-Пластик
+                        </div>
+                        <div class="slider__right__text">
+                            Разработка и изготовление изделий из композитных материалов.
+                        </div>
+                        <div class="slider__right__textinvisible">Продолжаем славные традиции тульских мастеров</div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="slider__right__item" style="background: linear-gradient(90.72deg, rgba(0, 0, 0, 0.79) 49.56%, rgba(0, 0, 0, 0) 98.49%), url('./img/slide3.jpg');">
+                        <div class="slider__right__title">
+                            <img src="./img/slidei3.svg">
+                            ООО "ТОЗ-Пластик
+                        </div>
+                        <div class="slider__right__text">
+                            Разработка и изготовление изделий из композитных материалов.
+                        </div>
+                        <div class="slider__right__textinvisible">Продолжаем славные традиции тульских мастеров</div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="slider__right__item" style="background: linear-gradient(90.72deg, rgba(0, 0, 0, 0.79) 49.56%, rgba(0, 0, 0, 0) 98.49%), url('./img/slide1.jpg');">
+                        <div class="slider__right__title">
+                            <img src="./img/slide1.svg">
+                            АО “АК”Туламашзавод”
+                        </div>
+                        <div class="slider__right__text">
+                            Многопрофильное производственное объединение выпускающее продукцию для ОПК.
+                        </div>
+                        <div class="slider__right__textinvisible">Продолжаем славные традиции тульских мастеров</div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="slider__right__item" style="background: linear-gradient(90.72deg, rgba(0, 0, 0, 0.79) 49.56%, rgba(0, 0, 0, 0) 98.49%), url('./img/slide2.jpg');">
+                        <div class="slider__right__title">
+                            <img src="./img/slidei2.svg">
+                            АО "Тулаточмаш"
+                        </div>
+                        <div class="slider__right__text">
+                            производственное объединение выпускающее продукцию для ОПК
+                        </div>
+                        <div class="slider__right__textinvisible">Продолжаем славные традиции тульских мастеров</div>
+                    </div>
+                </div>
+            </div>
+            <div class="pokazateli">
+                <h2 class="h2b">Показатели<br> холдинга</h2>
+            </div>
+        </div>
+    </div>
+    <footer class="footer main">
+        <div class="left50" style="background-image: url('./img/fm.jpg');">
+            <div class="footer__block">
+                <div class="footer__block__wrap">
+                    <div class="footer__block__item">
+                        <div class="footer__block__num">656</div>
+                        <div class="footer__val">млрд
+                            <svg width="28" height="30" viewBox="0 0 28 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.682007 25.2268H5.45482V29.3183C5.45482 29.5174 5.51851 29.6803 5.64665 29.8077C5.77444 29.9359 5.93782 30 6.13682 30H9.69488C9.87954 30 10.0393 29.9359 10.1743 29.8077C10.3093 29.6803 10.3765 29.5173 10.3765 29.3183V25.2268H21.1364C21.335 25.2268 21.4985 25.1636 21.6266 25.0354C21.7548 24.9073 21.8184 24.7442 21.8184 24.5451V21.8177C21.8184 21.6199 21.7548 21.4557 21.6266 21.3283C21.4988 21.2001 21.335 21.136 21.1364 21.136H10.3762V18.6217H17.6205C20.4613 18.6217 22.7798 17.7561 24.5772 16.0224C26.3738 14.2906 27.2726 12.0534 27.2726 9.31086C27.2726 6.57013 26.3738 4.33292 24.5772 2.59929C22.7801 0.867372 20.4612 0 17.6205 0H6.13647C5.9374 0 5.77438 0.0640429 5.6463 0.191482C5.51851 0.319626 5.45446 0.483703 5.45446 0.681654V14.084H0.682007C0.482997 14.084 0.31992 14.1513 0.191835 14.2862C0.0641017 14.4212 0 14.581 0 14.7656V17.9399C0 18.139 0.0636901 18.3021 0.191835 18.4302C0.319979 18.5584 0.482644 18.6217 0.682007 18.6217H5.45482V21.136H0.682007C0.482997 21.136 0.31992 21.2001 0.191835 21.3283C0.0641017 21.4557 0 21.6194 0 21.8177V24.5451C0 24.7441 0.0636901 24.9072 0.191835 25.0353C0.31992 25.1636 0.482939 25.2268 0.682007 25.2268ZM10.3762 4.53881H17.1944C18.6999 4.53881 19.9142 4.979 20.8378 5.85966C21.7609 6.74038 22.2226 7.89133 22.2226 9.31121C22.2226 10.7318 21.7609 11.8831 20.8378 12.7628C19.9142 13.6442 18.6998 14.0844 17.1944 14.0844H10.3762V4.53881Z" fill="white"/>
+                            </svg>
+                        </div>
+                        <div class="footer__total">Выручка 2019</div>
+                    </div>
+
+                    <div class="footer__block__item">
+                        <div class="footer__block__num">223</div>
+                        <div class="footer__val">млрд
+                            <svg width="28" height="30" viewBox="0 0 28 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.682007 25.2268H5.45482V29.3183C5.45482 29.5174 5.51851 29.6803 5.64665 29.8077C5.77444 29.9359 5.93782 30 6.13682 30H9.69488C9.87954 30 10.0393 29.9359 10.1743 29.8077C10.3093 29.6803 10.3765 29.5173 10.3765 29.3183V25.2268H21.1364C21.335 25.2268 21.4985 25.1636 21.6266 25.0354C21.7548 24.9073 21.8184 24.7442 21.8184 24.5451V21.8177C21.8184 21.6199 21.7548 21.4557 21.6266 21.3283C21.4988 21.2001 21.335 21.136 21.1364 21.136H10.3762V18.6217H17.6205C20.4613 18.6217 22.7798 17.7561 24.5772 16.0224C26.3738 14.2906 27.2726 12.0534 27.2726 9.31086C27.2726 6.57013 26.3738 4.33292 24.5772 2.59929C22.7801 0.867372 20.4612 0 17.6205 0H6.13647C5.9374 0 5.77438 0.0640429 5.6463 0.191482C5.51851 0.319626 5.45446 0.483703 5.45446 0.681654V14.084H0.682007C0.482997 14.084 0.31992 14.1513 0.191835 14.2862C0.0641017 14.4212 0 14.581 0 14.7656V17.9399C0 18.139 0.0636901 18.3021 0.191835 18.4302C0.319979 18.5584 0.482644 18.6217 0.682007 18.6217H5.45482V21.136H0.682007C0.482997 21.136 0.31992 21.2001 0.191835 21.3283C0.0641017 21.4557 0 21.6194 0 21.8177V24.5451C0 24.7441 0.0636901 24.9072 0.191835 25.0353C0.31992 25.1636 0.482939 25.2268 0.682007 25.2268ZM10.3762 4.53881H17.1944C18.6999 4.53881 19.9142 4.979 20.8378 5.85966C21.7609 6.74038 22.2226 7.89133 22.2226 9.31121C22.2226 10.7318 21.7609 11.8831 20.8378 12.7628C19.9142 13.6442 18.6998 14.0844 17.1944 14.0844H10.3762V4.53881Z" fill="white"/>
+                            </svg>
+                        </div>
+                        <div class="footer__total">Скор. oibda 2019</div>
+                    </div>
+
+                    <div class="footer__block__item">
+                        <div class="footer__block__num">53.4</div>
+                        <div class="footer__val">млрд
+                            <svg width="28" height="30" viewBox="0 0 28 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.682007 25.2268H5.45482V29.3183C5.45482 29.5174 5.51851 29.6803 5.64665 29.8077C5.77444 29.9359 5.93782 30 6.13682 30H9.69488C9.87954 30 10.0393 29.9359 10.1743 29.8077C10.3093 29.6803 10.3765 29.5173 10.3765 29.3183V25.2268H21.1364C21.335 25.2268 21.4985 25.1636 21.6266 25.0354C21.7548 24.9073 21.8184 24.7442 21.8184 24.5451V21.8177C21.8184 21.6199 21.7548 21.4557 21.6266 21.3283C21.4988 21.2001 21.335 21.136 21.1364 21.136H10.3762V18.6217H17.6205C20.4613 18.6217 22.7798 17.7561 24.5772 16.0224C26.3738 14.2906 27.2726 12.0534 27.2726 9.31086C27.2726 6.57013 26.3738 4.33292 24.5772 2.59929C22.7801 0.867372 20.4612 0 17.6205 0H6.13647C5.9374 0 5.77438 0.0640429 5.6463 0.191482C5.51851 0.319626 5.45446 0.483703 5.45446 0.681654V14.084H0.682007C0.482997 14.084 0.31992 14.1513 0.191835 14.2862C0.0641017 14.4212 0 14.581 0 14.7656V17.9399C0 18.139 0.0636901 18.3021 0.191835 18.4302C0.319979 18.5584 0.482644 18.6217 0.682007 18.6217H5.45482V21.136H0.682007C0.482997 21.136 0.31992 21.2001 0.191835 21.3283C0.0641017 21.4557 0 21.6194 0 21.8177V24.5451C0 24.7441 0.0636901 24.9072 0.191835 25.0353C0.31992 25.1636 0.482939 25.2268 0.682007 25.2268ZM10.3762 4.53881H17.1944C18.6999 4.53881 19.9142 4.979 20.8378 5.85966C21.7609 6.74038 22.2226 7.89133 22.2226 9.31121C22.2226 10.7318 21.7609 11.8831 20.8378 12.7628C19.9142 13.6442 18.6998 14.0844 17.1944 14.0844H10.3762V4.53881Z" fill="white"/>
+                            </svg>
+                        </div>
+                        <div class="footer__total">Скор. oibda 2019</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right50">
+            <div class="footer__text  wow slideInRight">
+                <div class="footer__text__item">
+                    <p>Холдинг «ТОР» объединяет предприятия в области машиностроения, судостроения, агропродовольственного сектора. Наша цель постоянно улучшать качество выпускаемой продукции за счет накопленного опыта и повышения компетенций.</p>
+                    <a class="red-more grey-more" href="">Подробнее</a>
+                </div>
+            </div>
+            <div class="footer__contact">
+                <a href="" class="footer__item">
+                    <object type="image/svg+xml" data="./img/ph.svg" width="30" height="30" >
+                    </object>
+                    +7(495) 000-00-00
+                </a>
+                <a href="" class="footer__item">
+                    <object type="image/svg+xml" data="./img/ml.svg" width="30" height="30" >
+                    </object>    
+                    Обратная связь
+                </a>
+            </div>
+            
+        </div>
         <div class="footer__wraper">
-            <div class="footer__l">
-                <a href="" class="footer__logo"><img src="./img/flogo.png"></a>
-                <a href="tel:+78129295200" class="footer__tel"><img src="./img/phone.png">+7 (812) 929 52 00</a>
-                <div class="footer__time"><img src="./img/time.png">ВРЕМЯ РАБОТЫ:<br> Пн-Пт 10-20, Сб-Вс 11-19</div>
-                <div class="footer__partner">
-                    <object type="image/svg+xml" data="./img/ficon.svg"></object>
-                    <a href="">Incomesite.ru</a>
-                </div>
-                <div class="footer__soc">
-                    <a href="" class="footer__vk"><i class="icon-vk"></i></a>
-                    <span>1</span>
-
-                    <a href="" class="footer__fb"><i class="icon-fb"></i></a>
-                    <span>2</span>
-
-                    <a href="" class="footer__tw"><i class="icon-twitter"></i></object></a>
-                    <span>0</span>
-                </div>
-            </div>
-            <div class="footer__c">
-                <a href="">О компании</a>
-                <a href="">Акции </a>      
-                <a href="">Новости</a>
-                <a href="">Услуги</a>
-                <a href="">Доставка</a>
-                <a href="">Возврат</a>
-                <a href="">Сотрудничество</a>
-                <a href="">Бренды</a>
-                <a href="">Контакты</a>
-            </div>
-            <div class="footer__r">
-                <div class="footer__r__title">Каталог товаров:</div>
-                <div class="footer__r__wrap">
-                    <a href="">Уплотнители</a>
-                    <a href="">Герметики</a>
-                    <a href="">Инструмент</a>
-                    <a href="">Фурнитура</a>
-                    <a href="">Химия</a>
-                    <a href="">Монтажная пена</a>
-                    <a href="">Москитная сетка</a>
-                    <a href="">Откосы</a>
-                    <a href="">Подоконники</a>
-                    <a href="">Аксессуары</a>
-                    <a href="">Стеклопакеты</a>
-                    <a href="">Услуги</a>
-                    <a href="">Фурнитура</a>
+            <div class="wrap">
+                <a href="" class="footer__logo">
+                    <img src="./img/logo.svg">
+                </a>
+                <div class="footer__copi">
+                    2020 ©  ООО “ТОР”
                 </div>
             </div>
         </div>
         
-    </div>
-</footer>
-<div id="map">
-    <div class="map__wrap" style="position:relative;"><iframe src="https://yandex.ru/map-widget/v1/-/CCQprPAKxB" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
-    <div class="map__close">
-        <span></span>
-        <span></span>
-    </div>
-    </div>
+    </footer>
 </div>
-<div class="backcall">
-    <form class="backcall__wrap">
-       
-        <div class="map__close backcall__close">
-            <span></span>
-            <span></span>
-        </div>
-        <div class="backcall__title">Заполните форму и мы перезвоним Вам</div>
-        <div class="backcall__flex">
-            <div class="backcall__item">
-                <label><span>*</span>Имя</label>
-                <input type="" name="" placeholder="Иванов Иван Иванович">
-            </div>
-            <div class="backcall__item">
-                <label><span>*</span>Телефон</label>
-                <input class="phone" type="" name="" placeholder="+7 911 777-77-77">
-            </div>
-        </div>
-        <div class="backcall__ckeck">
-            <div class="checkbox">
-                <input type="checkbox" name="" style="display: none" id="backckeck">
-                <label  for="backckeck"></label>
-            </div>
-            
-            <span>Нажимая кнопку «Оформить заказ», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Согласии на обработку персональных данных</span>
-        </div>
-        <div class="backcall__btn">
-            <button type="submite">Отправить</button>
-        </div>
-       <div class="backcall__wrap2">
-            
-            <div class="backcall__wrap2__wrap">
-                <div class="backcall2__title"><img src="./img/sps.png">Спасибо!</div>
-                <div class="backcall2__text">Ваша заявка принята.</div>
-                <div class="backcall2__text2">Мы перезвоним Вам в ближайшее время.</div>
-            </div>
-            
-        </div>
-        
-    </form>
-    
 
-</div>
-<script src="./js/jquery-3.2.1.min.js"></script>
-<script src="./js/maskedinput.min.js"></script>
-<script src="./js/slick.min.js"></script>
-<script src="./js/main.min.js"></script>
-
-
+<script src="js/jquery-3.2.1.min.js?v=8707a02958df7e780e6e61324a7f7d6e"></script>
+<script src="js/wow.min.js?v=8707a02958df7e780e6e61324a7f7d6e"></script>
+<script src="js/slick.min.js?v=8707a02958df7e780e6e61324a7f7d6e"></script>
+<script src="js/selectric.min.js?v=8707a02958df7e780e6e61324a7f7d6e"></script>
+<script src="js/main.min.js?v=8707a02958df7e780e6e61324a7f7d6e"></script>
 </body>
-
 </html>

@@ -1,6 +1,14 @@
 .text-wrap h1 {
   margin-bottom: 30px; }
 
+.content {
+  border-top: 6px solid #067185;
+  padding-top: 22px; }
+
+@media (max-width: 991px) {
+  .content {
+    margin-top: 20px; } }
+
 p {
   margin-bottom: 20px; }
 
@@ -83,3 +91,93 @@ p {
 @media (max-width: 559px) {
   .uslugi__item {
     width: calc(100% - 10px); } }
+
+.text-wrap h2 {
+  margin-bottom: 20px; }
+
+.text-wrap ul {
+  padding-left: 25px;
+  margin-bottom: 65px; }
+
+.text-wrap ul li {
+  position: relative;
+  margin-bottom: 15px; }
+
+.text-wrap ul li:before {
+  content: "";
+  background-color: #4a8893;
+  font-weight: 700;
+  display: inline-block;
+  width: 5px;
+  position: absolute;
+  height: 5px;
+  left: -15px;
+  top: 6px; }
+
+.text-wrap img.img {
+  float: left;
+  margin-right: 22px;
+  margin-bottom: 10px; }
+
+.text-wrap .frame_blc {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 41.25%;
+  padding-top: 30px;
+  height: 0;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  max-width: 906px; }
+
+.text-wrap .frame_blc iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0; }
+
+@media (max-width: 767px) {
+  img.img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px; } }
+
+.brands {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -7px;
+  padding: 0 60px;
+  margin-bottom: 50px;
+  margin-top: 50px; }
+
+.brands__item {
+  width: calc(100% / 5 - 14px);
+  margin: 0 7px;
+  margin-bottom: 14px;
+  border: 1px solid #bfbfbf;
+  padding: 9%;
+  background-size: 143px;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+@media (max-width: 1199px) {
+  .brands {
+    padding: 0; } }
+
+@media (max-width: 991px) {
+  .brands__item {
+    padding: 12%;
+    width: calc(100% / 3 - 14px); } }
+
+@media (max-width: 767px) {
+  .brands__item {
+    padding: 15%;
+    width: calc(100% / 2 - 14px); } }
+
+@media (max-width: 559px) {
+  .brands__item {
+    padding: 18%;
+    background-size: 99px; } }

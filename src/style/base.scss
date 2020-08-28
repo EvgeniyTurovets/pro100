@@ -11,7 +11,7 @@ body {
 .app {
   flex: 1 0 auto;
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 @media(min-width: 768px){
@@ -1077,4 +1077,32 @@ body {
         width: 100%;
         padding: 15px;
     }
+}
+
+.breadcrubm ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.breadcrubm{
+	font-size: 12px;
+	color: #bababa;
+	width: 100%;
+}
+.breadcrubm a{
+	text-decoration: underline;
+	position: relative;
+	margin-right: 10px;
+	transition: 0.1s all;
+}
+.breadcrubm a:hover{
+	color: #4e4e4e;
+}
+.breadcrubm a:after{
+	content: "/";
+	right: -8px;
+	color: #bababa;
+	position: absolute;
+}
+.breadcrubm li{
+	margin-bottom: 5px;
 }

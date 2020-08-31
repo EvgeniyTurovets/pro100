@@ -281,6 +281,12 @@ a:focus{
     align-items: center;
     text-align: center;
 }
+.tovar-item__name a{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 .tovar-item__price{
     display: flex;
     justify-content: center;

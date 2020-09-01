@@ -330,3 +330,41 @@ h3 {
 .dostavka__map iframe {
   width: 100%;
   height: 490px; }
+
+@media (min-width: 4px) {
+  .news__item.big {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 15px; }
+  .news__item.big .news__img {
+    -ms-flex: 0 0 337px;
+        flex: 0 0 337px;
+    margin-right: 35px;
+    height: 241px;
+    padding: 0; }
+  .news__item.big > div {
+    -ms-flex: 1;
+        flex: 1; }
+  .news__item.big .news__link {
+    position: relative;
+    left: 0;
+    bottom: auto;
+    margin-top: auto; }
+  .news__item.big .news__data {
+    margin-top: 0; } }
+
+@media (max-width: 991px) {
+  .news__item.big {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }
+
+@media (min-width: 4px) and (max-width: 991px) {
+  .news__item.big .news__img {
+    -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    margin-right: 0;
+    height: auto;
+    padding: 23%; }
+  .news__item.big .news__data {
+    margin-top: 15px; } }

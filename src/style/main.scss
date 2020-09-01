@@ -539,9 +539,11 @@ a:focus{
     border: 1px solid #bfbfbf;
     position: relative;
     padding-bottom: 35px;
+    margin-bottom: 20px;
 }
 .news__img{
-    height: 157px;
+    height: auto;
+    padding: 23%;
     background-size: cover;
     display: block;
 }

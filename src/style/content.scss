@@ -194,3 +194,95 @@ p{
         background-size: 99px;
     }
 }
+
+//контакты
+.contact__title{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact__item{
+    margin-bottom: 25px;
+}
+
+.contact__item a{
+    font-weight: 400;
+    color: #2c7d8f;
+    display: inline-block;
+    border-bottom: 1px solid #2c7d8f;
+}
+
+.contact button{
+    cursor: pointer;
+    width: 250px;
+    height: 54px;
+    background-color: #ff7239;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s all;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contact button:hover{
+    background-color: #f35c1e;
+    box-shadow: 0 0 10px 1px #00000070 inset;
+}
+
+.contact{
+    display: flex;
+}
+.contact__left{
+    width: 45%;
+    padding-top: 20px;
+}
+.contact__right{
+    width: 55%;
+    margin-top: -50px;
+}
+
+.contact__map{
+    height: 359px;
+    margin-bottom: 40px;
+}
+.contact__map iframe{
+    width: 100%;
+    height: 100%;
+}
+.contact__map__wrap{
+    display: flex;
+}
+.contact__map__wrap div{
+    margin-right: 25px;
+    min-width: 200px;
+}
+.contact__right{
+    font-size: 14px;
+    color: #949494;
+}
+
+.contact__right__title{
+    margin-bottom: 22px;
+}
+
+@media(max-width: 991px){
+    .contact{
+        flex-direction: column;
+    }
+    .contact__left{
+        width: 100%;
+    }
+    .contact__right{
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 767px){
+    .contact__map__wrap{
+        flex-direction: column;
+    }
+    .contact__map__wrap div{
+        width: 100%;
+        margin-right: 0;
+    }
+}

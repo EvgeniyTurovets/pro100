@@ -187,6 +187,11 @@ $(function(){
 		$('.backcall').fadeIn();
 		return false;
 	})
+
+	$('.contact__btn').click(function(){
+		$('.backcall').fadeIn();
+	})
+	
 	$('.map__close.backcall__close').click(function(){
 		$('.backcall').fadeOut();
 	})

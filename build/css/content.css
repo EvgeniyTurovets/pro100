@@ -368,3 +368,26 @@ h3 {
     padding: 23%; }
   .news__item.big .news__data {
     margin-top: 15px; } }
+
+.news-d-b {
+  position: relative;
+  margin-top: 60px; }
+
+.news-b-d-l {
+  position: absolute;
+  left: 0;
+  text-decoration: underline;
+  transition: 0.3s all; }
+
+.news-b-d-l:hover {
+  opacity: 0.8; }
+
+@media (max-width: 767px) {
+  .news-d-b {
+    -ms-flex-direction: column;
+        flex-direction: column; }
+  .news-b-d-l {
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    margin-bottom: 50px; } }

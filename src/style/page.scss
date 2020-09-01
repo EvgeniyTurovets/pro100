@@ -260,59 +260,6 @@
 	margin: 0 11px;
 	margin-bottom: 22px;
 }
-.pagination object{
-	width: 14px;
-	margin-left: 5px;
-	text-decoration: underline;
-}
-.pagination{
-	display: flex;
-	justify-content: center;
-	margin-top: 25px;
-	align-items: center;
-	margin-bottom: 25px;
-}
-.pagination ul{
-	display: flex;
-}
-.pagination span{
-	color: $grey;
-	margin-right: 10px;
-}
-.pagination ul li{
-	
-	margin: 0 5px;
-	text-align: center;
-	line-height: 25px;
-	text-decoration: underline;
-}
-
-.pagination ul li a{
-	width: 25px;
-	height: 25px;
-	display: block;
-}
-.pagination ul li.active{
-	background-color: $blue;
-	text-decoration: none;
-	color: #fff;
-}
-
-.pagination ul li.last a{
-	display: flex;
-	align-items: center;
-	width: auto;
-}
-.pagination ul li.last a:after{
-	content: "";
-	width: 13px;
-	height: 15px;
-	display: block;
-	background-image: url('../img/arrowimg.svg');
-	background-size: cover;
-	flex: 1;
-	margin-left: 5px;
-}
 
 @media(max-width: 1199px){
 	.catalog__tovars  .tovar-item__action{

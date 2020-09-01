@@ -391,3 +391,33 @@ h3 {
     display: flex;
     position: relative;
     margin-bottom: 50px; } }
+
+.notfound {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  text-align: center;
+  height: 400px; }
+
+.notfound img {
+  margin-bottom: 15px; }
+
+.notfound__t {
+  font-size: 45px;
+  margin-bottom: 15px; }
+
+.notfound a {
+  width: 250px;
+  height: 55px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background-color: #067185;
+  color: #fff;
+  margin: 0 auto; }

@@ -355,12 +355,14 @@ a:focus{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .tovar-item__action a{
     background-color: $orang;
     display: flex;
     flex: 1;
     align-items: center;
+    justify-content: center;
     margin-left: 8px;
     padding: 0 12px;
     color: #fff;

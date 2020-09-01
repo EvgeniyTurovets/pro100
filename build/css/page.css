@@ -170,8 +170,10 @@
   border: 1px solid #bfbfbf;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 31px;
-  margin-top: 31px; }
+  margin-bottom: 31px; }
+
+.catalog h1 {
+  margin-bottom: 31px; }
 
 .filter__item {
   height: 75px;
@@ -985,6 +987,9 @@ textarea:focus {
   .otveti__voprose {
     font-size: 15px; } }
 
+.catalog__wraper {
+  width: 100%; }
+
 .catalog__wraper .catalog__tovars .tovar-item {
   width: calc(100% / 4 - 22px); }
 
@@ -1014,3 +1019,37 @@ textarea:focus {
     width: 100%; }
   .catalog__wraper .catalog__tovars .tovar-item__action {
     padding: 0 40px; } }
+
+.akcii__item {
+  padding: 2.2%;
+  width: 100%;
+  background-size: cover; }
+
+.akcii__slider {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 35px; }
+
+.akcii__slider .arrow {
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: .3s all;
+  border: 0; }
+
+.akcii__slider .arrow:hover {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.akcii__slider .arrow-left {
+  left: 20px; }
+
+.akcii__slider .arrow-right {
+  right: 20px; }
+
+.akcii__slider .slick-dots {
+  bottom: 25px; }
+
+@media (max-width: 767px) {
+  .akcii__slider .arrow-left {
+    left: 0px; }
+  .akcii__slider .arrow-right {
+    right: 0px; } }

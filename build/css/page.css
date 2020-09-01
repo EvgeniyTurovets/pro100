@@ -1,7 +1,8 @@
 @charset "UTF-8";
 .content {
   border-top: 6px solid #067185;
-  padding-top: 22px; }
+  padding-top: 22px;
+  min-height: 500px; }
 
 .double-img-parent {
   cursor: pointer; }

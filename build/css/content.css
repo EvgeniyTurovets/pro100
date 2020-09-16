@@ -525,3 +525,113 @@ h3 {
     margin-bottom: 25px; }
   .fizlic .fizlic__btn {
     width: 155px; } }
+
+.cabinet__t {
+  font-size: 18px;
+  margin-bottom: 35px; }
+
+.cabinet__h {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 25px;
+  background-color: #ebebeb;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-bottom: 35px; }
+
+.cabinet-fiz thead {
+  font-weight: bold; }
+
+.cabinet-fiz {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  margin-bottom: 50px;
+  margin-top: 35px; }
+
+.cabinet-fiz a {
+  color: #067185;
+  text-decoration: underline;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.cabinet-fiz tr {
+  border-top: 1px solid #bfbfbf;
+  border-bottom: 1px solid #bfbfbf;
+  height: 63px; }
+
+.cabinet-fiz .inwork {
+  color: #067185; }
+
+.cabinet-fiz .inend {
+  color: #ff7239; }
+
+.cabinet-fiz .inready {
+  color: #4abe33; }
+
+.cabinet-fiz td {
+  width: calc(100% / 4); }
+
+.cabinet-fiz td {
+  padding-left: 100px; }
+
+@media (max-width: 1199px) {
+  .cabinet-fiz td {
+    padding-left: 0px; } }
+
+@media (max-width: 991px) {
+  .cabinet__h {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .cabinet__h__item {
+    margin-bottom: 15px;
+    width: 50%; }
+  .cabinet__h__item:last-child {
+    margin-bottom: 0; } }
+
+@media (max-width: 650px) {
+  .cabinet__h__item {
+    width: 100%; }
+  .cabinet-fiz {
+    min-width: 500px; }
+  .cabinet-fiz td {
+    width: auto;
+    padding: 0 10px; } }
+
+@media (max-width: 374px) {
+  .cabinet__h {
+    padding: 15px 10px;
+    font-size: 16px; } }
+
+.cabinet__h__wrap__item {
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px; }
+
+.cabinet__h__wrap__item span:first-child {
+  width: 200px; }
+
+.urlic td {
+  padding-left: 50px;
+  padding-right: 20px;
+  white-space: nowrap; }
+
+.cabinet-fiz a svg {
+  margin-left: 5px; }
+
+@media (max-width: 1023px) {
+  .urlic td {
+    padding: 0 10px; } }
+
+@media (max-width: 767px) {
+  .cabinet__h__wrap__item span:first-child {
+    width: auto; }
+  .cabinet__h__wrap__item span {
+    width: 100%;
+    margin-bottom: 5px; }
+  .cabinet__h__wrap__item {
+    -ms-flex-direction: column;
+        flex-direction: column; } }

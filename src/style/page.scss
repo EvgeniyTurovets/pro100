@@ -1071,11 +1071,14 @@ textarea:focus{
 
 
 @media(max-width: 767px){
-.akcii__slider .arrow-left{
-	left: 0px;
+	.akcii__slider .arrow-left{
+		left: 0px;
+	}
+
+	.akcii__slider .arrow-right{
+		right: 0px;
+	}
 }
 
-.akcii__slider .arrow-right{
-	right: 0px;
-}
-}
+
+

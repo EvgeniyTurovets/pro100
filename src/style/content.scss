@@ -460,3 +460,101 @@ h3{
     color: #fff;
     margin: 0 auto;
 }
+
+
+.fizlic{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    min-width: 1144px;
+    margin-bottom: 50px;
+}
+.cabinet__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.cabinet__top a{
+    color: #067185;
+    text-decoration: underline;
+}
+
+.fizlic thead{
+    font-weight: bold;
+}
+.fizlic .total{
+    color: #067185;
+}
+.fizlic tr{
+    border-top: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+    height: 63px;
+}
+
+.fizlic a{
+    color: #067185;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+}
+.fizlic a svg{
+    margin-left: 5px;
+}
+.fizlic td{
+    padding: 0 10px;
+}
+.fizlic__tovari{
+    display: flex;
+}
+.fizlic__tovari .fizlic__tovari__img{
+    width: 68px;
+    height: 100%;
+    border-right: 1px solid #bfbfbf;
+    border-left: 1px solid #bfbfbf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.fizlic__tovari__img img{
+    max-width: 100%;
+    object-fit: contain;
+    height: 63px;
+}
+.fizlic__tovari span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fizlic .fizlic__btn{
+    height: 55px;
+    width: 220px;
+    background-color: #ff7239;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+.fizlic .fizlic__btn:hover{
+    background-color: #f35c1e;
+    box-shadow: 0 0 10px 1px #00000070 inset;
+}
+.fizlic__wrap{
+    width: 100%;
+    overflow: auto;
+}
+
+
+@media(max-width: 767px){
+    .cabinet__top{
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    .fizlic .fizlic__btn{
+        width: 155px;
+    }
+}
+
